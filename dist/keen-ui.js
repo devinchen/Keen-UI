@@ -71,23 +71,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiAutocomplete2 = _interopRequireDefault(_UiAutocomplete);
 	
-	var _UiButton = __webpack_require__(89);
+	var _UiButton = __webpack_require__(91);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
-	var _UiCheckbox = __webpack_require__(93);
+	var _UiCheckbox = __webpack_require__(95);
 	
 	var _UiCheckbox2 = _interopRequireDefault(_UiCheckbox);
 	
-	var _UiCollapsible = __webpack_require__(97);
+	var _UiCollapsible = __webpack_require__(99);
 	
 	var _UiCollapsible2 = _interopRequireDefault(_UiCollapsible);
 	
-	var _UiConfirm = __webpack_require__(101);
+	var _UiConfirm = __webpack_require__(103);
 	
 	var _UiConfirm2 = _interopRequireDefault(_UiConfirm);
 	
-	var _UiFab = __webpack_require__(109);
+	var _UiFab = __webpack_require__(111);
 	
 	var _UiFab2 = _interopRequireDefault(_UiFab);
 	
@@ -107,7 +107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiMenuItem2 = _interopRequireDefault(_UiMenuItem);
 	
-	var _UiModal = __webpack_require__(104);
+	var _UiModal = __webpack_require__(106);
 	
 	var _UiModal2 = _interopRequireDefault(_UiModal);
 	
@@ -115,7 +115,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiPopover2 = _interopRequireDefault(_UiPopover);
 	
-	var _UiPreloader = __webpack_require__(113);
+	var _UiPreloader = __webpack_require__(115);
 	
 	var _UiPreloader2 = _interopRequireDefault(_UiPreloader);
 	
@@ -123,27 +123,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiProgressCircular2 = _interopRequireDefault(_UiProgressCircular);
 	
-	var _UiProgressLinear = __webpack_require__(117);
+	var _UiProgressLinear = __webpack_require__(119);
 	
 	var _UiProgressLinear2 = _interopRequireDefault(_UiProgressLinear);
 	
-	var _UiRadio = __webpack_require__(121);
+	var _UiRadio = __webpack_require__(123);
 	
 	var _UiRadio2 = _interopRequireDefault(_UiRadio);
 	
-	var _UiRadioGroup = __webpack_require__(125);
+	var _UiRadioGroup = __webpack_require__(127);
 	
 	var _UiRadioGroup2 = _interopRequireDefault(_UiRadioGroup);
 	
-	var _UiRating = __webpack_require__(129);
+	var _UiRating = __webpack_require__(131);
 	
 	var _UiRating2 = _interopRequireDefault(_UiRating);
 	
-	var _UiRatingIcon = __webpack_require__(132);
+	var _UiRatingIcon = __webpack_require__(134);
 	
 	var _UiRatingIcon2 = _interopRequireDefault(_UiRatingIcon);
 	
-	var _UiRatingPreview = __webpack_require__(137);
+	var _UiRatingPreview = __webpack_require__(139);
 	
 	var _UiRatingPreview2 = _interopRequireDefault(_UiRatingPreview);
 	
@@ -151,39 +151,39 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiRippleInk2 = _interopRequireDefault(_UiRippleInk);
 	
-	var _UiSelect = __webpack_require__(141);
+	var _UiSelect = __webpack_require__(143);
 	
 	var _UiSelect2 = _interopRequireDefault(_UiSelect);
 	
-	var _UiSlider = __webpack_require__(152);
+	var _UiSlider = __webpack_require__(154);
 	
 	var _UiSlider2 = _interopRequireDefault(_UiSlider);
 	
-	var _UiSnackbar = __webpack_require__(164);
+	var _UiSnackbar = __webpack_require__(166);
 	
 	var _UiSnackbar2 = _interopRequireDefault(_UiSnackbar);
 	
-	var _UiSnackbarContainer = __webpack_require__(168);
+	var _UiSnackbarContainer = __webpack_require__(170);
 	
 	var _UiSnackbarContainer2 = _interopRequireDefault(_UiSnackbarContainer);
 	
-	var _UiSwitch = __webpack_require__(172);
+	var _UiSwitch = __webpack_require__(174);
 	
 	var _UiSwitch2 = _interopRequireDefault(_UiSwitch);
 	
-	var _UiTab = __webpack_require__(176);
+	var _UiTab = __webpack_require__(178);
 	
 	var _UiTab2 = _interopRequireDefault(_UiTab);
 	
-	var _UiTabs = __webpack_require__(180);
+	var _UiTabs = __webpack_require__(182);
 	
 	var _UiTabs2 = _interopRequireDefault(_UiTabs);
 	
-	var _UiTextbox = __webpack_require__(188);
+	var _UiTextbox = __webpack_require__(190);
 	
 	var _UiTextbox2 = _interopRequireDefault(_UiTextbox);
 	
-	var _UiToolbar = __webpack_require__(192);
+	var _UiToolbar = __webpack_require__(194);
 	
 	var _UiToolbar2 = _interopRequireDefault(_UiToolbar);
 	
@@ -361,7 +361,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAlert.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiAlert.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(64)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -370,9 +370,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAlert.vue"
+	  var id = "./UiAlert.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -466,7 +466,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiIcon.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiIcon.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(9)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -475,9 +475,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiIcon.vue"
+	  var id = "./UiIcon.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -531,7 +531,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiIconButton.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiIconButton.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(63)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -540,9 +540,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiIconButton.vue"
+	  var id = "./UiIconButton.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -674,7 +674,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiMenu.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenu.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(46)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -683,9 +683,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiMenu.vue"
+	  var id = "./UiMenu.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -804,7 +804,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiMenuItem.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiMenuItem.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(42)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -813,9 +813,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiMenuItem.vue"
+	  var id = "./UiMenuItem.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -923,7 +923,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRippleInk.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiRippleInk.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(41)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -932,9 +932,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRippleInk.vue"
+	  var id = "./UiRippleInk.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -2963,7 +2963,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.2.0 */
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! tether 1.3.1 */
 	
 	(function(root, factory) {
 	  if (true) {
@@ -2986,25 +2986,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	  TetherBase = { modules: [] };
 	}
 	
-	function getScrollParent(el) {
+	var zeroElement = null;
+	
+	function getScrollParents(el) {
 	  // In firefox if the el is inside an iframe with display: none; window.getComputedStyle() will return null;
 	  // https://bugzilla.mozilla.org/show_bug.cgi?id=548397
 	  var computedStyle = getComputedStyle(el) || {};
 	  var position = computedStyle.position;
+	  var parents = [];
 	
 	  if (position === 'fixed') {
-	    return el;
+	    return [el];
 	  }
 	
 	  var parent = el;
-	  while (parent = parent.parentNode) {
+	  while ((parent = parent.parentNode) && parent && parent.nodeType === 1) {
 	    var style = undefined;
 	    try {
 	      style = getComputedStyle(parent);
 	    } catch (err) {}
 	
 	    if (typeof style === 'undefined' || style === null) {
-	      return parent;
+	      parents.push(parent);
+	      return parents;
 	    }
 	
 	    var _style = style;
@@ -3014,12 +3018,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	    if (/(auto|scroll)/.test(overflow + overflowY + overflowX)) {
 	      if (position !== 'absolute' || ['relative', 'absolute', 'fixed'].indexOf(style.position) >= 0) {
-	        return parent;
+	        parents.push(parent);
 	      }
 	    }
 	  }
 	
-	  return document.body;
+	  parents.push(document.body);
+	  return parents;
 	}
 	
 	var uniqueId = (function () {
@@ -3030,14 +3035,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	})();
 	
 	var zeroPosCache = {};
-	var getOrigin = function getOrigin(doc) {
+	var getOrigin = function getOrigin() {
 	  // getBoundingClientRect is unfortunately too accurate.  It introduces a pixel or two of
 	  // jitter as the user scrolls that messes with our ability to detect if two positions
 	  // are equivilant or not.  We place an element at the top left of the page that will
 	  // get the same jitter, so we can cancel the two out.
-	  var node = doc._tetherZeroElement;
-	  if (typeof node === 'undefined') {
-	    node = doc.createElement('div');
+	  var node = zeroElement;
+	  if (!node) {
+	    node = document.createElement('div');
 	    node.setAttribute('data-tether-id', uniqueId());
 	    extend(node.style, {
 	      top: 0,
@@ -3045,9 +3050,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	      position: 'absolute'
 	    });
 	
-	    doc.body.appendChild(node);
+	    document.body.appendChild(node);
 	
-	    doc._tetherZeroElement = node;
+	    zeroElement = node;
 	  }
 	
 	  var id = node.getAttribute('data-tether-id');
@@ -3069,6 +3074,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return zeroPosCache[id];
 	};
 	
+	function removeUtilElements() {
+	  if (zeroElement) {
+	    document.body.removeChild(zeroElement);
+	  }
+	  zeroElement = null;
+	};
+	
 	function getBounds(el) {
 	  var doc = undefined;
 	  if (el === document) {
@@ -3088,7 +3100,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    box[k] = rect[k];
 	  }
 	
-	  var origin = getOrigin(doc);
+	  var origin = getOrigin();
 	
 	  box.top -= origin.top;
 	  box.left -= origin.left;
@@ -3324,7 +3336,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	})();
 	
 	TetherBase.Utils = {
-	  getScrollParent: getScrollParent,
+	  getScrollParents: getScrollParents,
 	  getBounds: getBounds,
 	  getOffsetParent: getOffsetParent,
 	  extend: extend,
@@ -3336,7 +3348,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  flush: flush,
 	  uniqueId: uniqueId,
 	  Evented: Evented,
-	  getScrollBarSize: getScrollBarSize
+	  getScrollBarSize: getScrollBarSize,
+	  removeUtilElements: removeUtilElements
 	};
 	/* globals TetherBase, performance */
 	
@@ -3346,14 +3359,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
+	var _get = function get(_x6, _x7, _x8) { var _again = true; _function: while (_again) { var object = _x6, property = _x7, receiver = _x8; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x6 = parent; _x7 = property; _x8 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	if (typeof TetherBase === 'undefined') {
 	  throw new Error('You must include the utils.js file before tether.js');
 	}
 	
 	var _TetherBase$Utils = TetherBase.Utils;
-	var getScrollParent = _TetherBase$Utils.getScrollParent;
+	var getScrollParents = _TetherBase$Utils.getScrollParents;
 	var getBounds = _TetherBase$Utils.getBounds;
 	var getOffsetParent = _TetherBase$Utils.getOffsetParent;
 	var extend = _TetherBase$Utils.extend;
@@ -3363,6 +3380,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	var defer = _TetherBase$Utils.defer;
 	var flush = _TetherBase$Utils.flush;
 	var getScrollBarSize = _TetherBase$Utils.getScrollBarSize;
+	var removeUtilElements = _TetherBase$Utils.removeUtilElements;
 	
 	function within(a, b) {
 	  var diff = arguments.length <= 2 || arguments[2] === undefined ? 1 : arguments[2];
@@ -3421,7 +3439,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      return;
 	    }
 	
-	    if (typeof pendingTimeout !== 'undefined') {
+	    if (pendingTimeout != null) {
 	      clearTimeout(pendingTimeout);
 	      pendingTimeout = null;
 	    }
@@ -3431,7 +3449,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    lastDuration = now() - lastCall;
 	  };
 	
-	  if (typeof window !== 'undefined') {
+	  if (typeof window !== 'undefined' && typeof window.addEventListener !== 'undefined') {
 	    ['resize', 'scroll', 'touchmove'].forEach(function (event) {
 	      window.addEventListener(event, tick);
 	    });
@@ -3537,12 +3555,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 	var parseAttachment = parseOffset;
 	
-	var TetherClass = (function () {
+	var TetherClass = (function (_Evented) {
+	  _inherits(TetherClass, _Evented);
+	
 	  function TetherClass(options) {
 	    var _this = this;
 	
 	    _classCallCheck(this, TetherClass);
 	
+	    _get(Object.getPrototypeOf(TetherClass.prototype), 'constructor', this).call(this);
 	    this.position = this.position.bind(this);
 	
 	    tethers.push(this);
@@ -3633,14 +3654,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.offset = parseOffset(this.options.offset);
 	      this.targetOffset = parseOffset(this.options.targetOffset);
 	
-	      if (typeof this.scrollParent !== 'undefined') {
+	      if (typeof this.scrollParents !== 'undefined') {
 	        this.disable();
 	      }
 	
 	      if (this.targetModifier === 'scroll-handle') {
-	        this.scrollParent = this.target;
+	        this.scrollParents = [this.target];
 	      } else {
-	        this.scrollParent = getScrollParent(this.target);
+	        this.scrollParents = getScrollParents(this.target);
 	      }
 	
 	      if (!(this.options.enabled === false)) {
@@ -3761,6 +3782,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'enable',
 	    value: function enable() {
+	      var _this3 = this;
+	
 	      var pos = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
 	
 	      if (!(this.options.addTargetClasses === false)) {
@@ -3769,9 +3792,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	      addClass(this.element, this.getClass('enabled'));
 	      this.enabled = true;
 	
-	      if (this.scrollParent !== document) {
-	        this.scrollParent.addEventListener('scroll', this.position);
-	      }
+	      this.scrollParents.forEach(function (parent) {
+	        if (parent !== document) {
+	          parent.addEventListener('scroll', _this3.position);
+	        }
+	      });
 	
 	      if (pos) {
 	        this.position();
@@ -3780,32 +3805,40 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'disable',
 	    value: function disable() {
+	      var _this4 = this;
+	
 	      removeClass(this.target, this.getClass('enabled'));
 	      removeClass(this.element, this.getClass('enabled'));
 	      this.enabled = false;
 	
-	      if (typeof this.scrollParent !== 'undefined') {
-	        this.scrollParent.removeEventListener('scroll', this.position);
+	      if (typeof this.scrollParents !== 'undefined') {
+	        this.scrollParents.forEach(function (parent) {
+	          parent.removeEventListener('scroll', _this4.position);
+	        });
 	      }
 	    }
 	  }, {
 	    key: 'destroy',
 	    value: function destroy() {
-	      var _this3 = this;
+	      var _this5 = this;
 	
 	      this.disable();
 	
 	      tethers.forEach(function (tether, i) {
-	        if (tether === _this3) {
+	        if (tether === _this5) {
 	          tethers.splice(i, 1);
-	          return;
 	        }
 	      });
+	
+	      // Remove any elements we were using for convenience from the DOM
+	      if (tethers.length === 0) {
+	        removeUtilElements();
+	      }
 	    }
 	  }, {
 	    key: 'updateAttachClasses',
 	    value: function updateAttachClasses(elementAttach, targetAttach) {
-	      var _this4 = this;
+	      var _this6 = this;
 	
 	      elementAttach = elementAttach || this.attachment;
 	      targetAttach = targetAttach || this.targetAttachment;
@@ -3838,27 +3871,27 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      var all = [];
 	      sides.forEach(function (side) {
-	        all.push(_this4.getClass('element-attached') + '-' + side);
-	        all.push(_this4.getClass('target-attached') + '-' + side);
+	        all.push(_this6.getClass('element-attached') + '-' + side);
+	        all.push(_this6.getClass('target-attached') + '-' + side);
 	      });
 	
 	      defer(function () {
-	        if (!(typeof _this4._addAttachClasses !== 'undefined')) {
+	        if (!(typeof _this6._addAttachClasses !== 'undefined')) {
 	          return;
 	        }
 	
-	        updateClasses(_this4.element, _this4._addAttachClasses, all);
-	        if (!(_this4.options.addTargetClasses === false)) {
-	          updateClasses(_this4.target, _this4._addAttachClasses, all);
+	        updateClasses(_this6.element, _this6._addAttachClasses, all);
+	        if (!(_this6.options.addTargetClasses === false)) {
+	          updateClasses(_this6.target, _this6._addAttachClasses, all);
 	        }
 	
-	        delete _this4._addAttachClasses;
+	        delete _this6._addAttachClasses;
 	      });
 	    }
 	  }, {
 	    key: 'position',
 	    value: function position() {
-	      var _this5 = this;
+	      var _this7 = this;
 	
 	      var flushChanges = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
 	
@@ -3877,7 +3910,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      this.updateAttachClasses(this.attachment, targetAttachment);
 	
 	      var elementPos = this.cache('element-bounds', function () {
-	        return getBounds(_this5.element);
+	        return getBounds(_this7.element);
 	      });
 	
 	      var width = elementPos.width;
@@ -3895,7 +3928,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      var targetPos = this.cache('target-bounds', function () {
-	        return _this5.getTargetBounds();
+	        return _this7.getTargetBounds();
 	      });
 	      var targetSize = targetPos;
 	
@@ -3979,10 +4012,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (typeof this.options.optimizations !== 'undefined' && this.options.optimizations.moveElement !== false && !(typeof this.targetModifier !== 'undefined')) {
 	        (function () {
-	          var offsetParent = _this5.cache('target-offsetparent', function () {
-	            return getOffsetParent(_this5.target);
+	          var offsetParent = _this7.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this7.target);
 	          });
-	          var offsetPosition = _this5.cache('target-offsetparent-bounds', function () {
+	          var offsetPosition = _this7.cache('target-offsetparent-bounds', function () {
 	            return getBounds(offsetParent);
 	          });
 	          var offsetParentStyle = getComputedStyle(offsetParent);
@@ -4035,7 +4068,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: 'move',
 	    value: function move(pos) {
-	      var _this6 = this;
+	      var _this8 = this;
 	
 	      if (!(typeof this.element.parentNode !== 'undefined')) {
 	        return;
@@ -4066,8 +4099,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var css = { top: '', left: '', right: '', bottom: '' };
 	
 	      var transcribe = function transcribe(_same, _pos) {
-	        var hasOptimizations = typeof _this6.options.optimizations !== 'undefined';
-	        var gpu = hasOptimizations ? _this6.options.optimizations.gpu : null;
+	        var hasOptimizations = typeof _this8.options.optimizations !== 'undefined';
+	        var gpu = hasOptimizations ? _this8.options.optimizations.gpu : null;
 	        if (gpu !== false) {
 	          var yPos = undefined,
 	              xPos = undefined;
@@ -4119,14 +4152,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	      } else if (typeof same.offset !== 'undefined' && same.offset.top && same.offset.left) {
 	        (function () {
 	          css.position = 'absolute';
-	          var offsetParent = _this6.cache('target-offsetparent', function () {
-	            return getOffsetParent(_this6.target);
+	          var offsetParent = _this8.cache('target-offsetparent', function () {
+	            return getOffsetParent(_this8.target);
 	          });
 	
-	          if (getOffsetParent(_this6.element) !== offsetParent) {
+	          if (getOffsetParent(_this8.element) !== offsetParent) {
 	            defer(function () {
-	              _this6.element.parentNode.removeChild(_this6.element);
-	              offsetParent.appendChild(_this6.element);
+	              _this8.element.parentNode.removeChild(_this8.element);
+	              offsetParent.appendChild(_this8.element);
 	            });
 	          }
 	
@@ -4141,7 +4174,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (!moved) {
 	        var offsetParentIsBody = true;
 	        var currentNode = this.element.parentNode;
-	        while (currentNode && currentNode.tagName !== 'BODY') {
+	        while (currentNode && currentNode.nodeType === 1 && currentNode.tagName !== 'BODY') {
 	          if (getComputedStyle(currentNode).position !== 'static') {
 	            offsetParentIsBody = false;
 	            break;
@@ -4163,11 +4196,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        var val = css[key];
 	        var elVal = this.element.style[key];
 	
-	        if (elVal !== '' && val !== '' && ['top', 'left', 'bottom', 'right'].indexOf(key) >= 0) {
-	          elVal = parseFloat(elVal);
-	          val = parseFloat(val);
-	        }
-	
 	        if (elVal !== val) {
 	          write = true;
 	          writeCSS[key] = val;
@@ -4176,14 +4204,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (write) {
 	        defer(function () {
-	          extend(_this6.element.style, writeCSS);
+	          extend(_this8.element.style, writeCSS);
 	        });
 	      }
 	    }
 	  }]);
 	
 	  return TetherClass;
-	})();
+	})(Evented);
 	
 	TetherClass.modules = [];
 	
@@ -4206,7 +4234,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	function getBoundingRect(tether, to) {
 	  if (to === 'scrollParent') {
-	    to = tether.scrollParent;
+	    to = tether.scrollParents[0];
 	  } else if (to === 'window') {
 	    to = [pageXOffset, pageYOffset, innerWidth + pageXOffset, innerHeight + pageYOffset];
 	  }
@@ -4334,34 +4362,32 @@ return /******/ (function(modules) { // webpackBootstrap
 	      }
 	
 	      if (changeAttachY === 'together') {
-	        if (top < bounds[1] && tAttachment.top === 'top') {
-	          if (eAttachment.top === 'bottom') {
+	        if (tAttachment.top === 'top') {
+	          if (eAttachment.top === 'bottom' && top < bounds[1]) {
 	            top += targetHeight;
 	            tAttachment.top = 'bottom';
 	
 	            top += height;
 	            eAttachment.top = 'top';
-	          } else if (eAttachment.top === 'top') {
-	            top += targetHeight;
+	          } else if (eAttachment.top === 'top' && top + height > bounds[3] && top - (height - targetHeight) >= bounds[1]) {
+	            top -= height - targetHeight;
 	            tAttachment.top = 'bottom';
 	
-	            top -= height;
 	            eAttachment.top = 'bottom';
 	          }
 	        }
 	
-	        if (top + height > bounds[3] && tAttachment.top === 'bottom') {
-	          if (eAttachment.top === 'top') {
+	        if (tAttachment.top === 'bottom') {
+	          if (eAttachment.top === 'top' && top + height > bounds[3]) {
 	            top -= targetHeight;
 	            tAttachment.top = 'top';
 	
 	            top -= height;
 	            eAttachment.top = 'bottom';
-	          } else if (eAttachment.top === 'bottom') {
-	            top -= targetHeight;
+	          } else if (eAttachment.top === 'bottom' && top < bounds[1] && top + (height * 2 - targetHeight) <= bounds[3]) {
+	            top += height - targetHeight;
 	            tAttachment.top = 'top';
 	
-	            top += height;
 	            eAttachment.top = 'top';
 	          }
 	        }
@@ -4553,6 +4579,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	      if (tAttachment.top !== targetAttachment.top || tAttachment.left !== targetAttachment.left || eAttachment.top !== _this.attachment.top || eAttachment.left !== _this.attachment.left) {
 	        _this.updateAttachClasses(eAttachment, tAttachment);
+	        _this.trigger('update', {
+	          attachment: eAttachment,
+	          targetAttachment: tAttachment
+	        });
 	      }
 	    });
 	
@@ -4707,7 +4737,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiPopover.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiPopover.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(50)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -4716,9 +4746,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiPopover.vue"
+	  var id = "./UiPopover.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -4801,7 +4831,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiProgressCircular.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiProgressCircular.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(54)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -4810,9 +4840,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiProgressCircular.vue"
+	  var id = "./UiProgressCircular.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -5012,7 +5042,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTooltip.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiTooltip.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(62)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -5021,9 +5051,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTooltip.vue"
+	  var id = "./UiTooltip.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -5285,8 +5315,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAutocomplete.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(88)
+	  console.warn("[vue-loader] src/UiAutocomplete.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(90)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -5294,9 +5324,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAutocomplete.vue"
+	  var id = "./UiAutocomplete.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -5540,7 +5570,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiAutocompleteSuggestion.vue: named exports in *.vue files are ignored.")}
+	  console.warn("[vue-loader] src/UiAutocompleteSuggestion.vue: named exports in *.vue files are ignored.")}
 	__vue_template__ = __webpack_require__(73)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
@@ -5549,9 +5579,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiAutocompleteSuggestion.vue"
+	  var id = "./UiAutocompleteSuggestion.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -5842,356 +5872,350 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
-	// Get required modules
 	var Rules = __webpack_require__(78);
 	var Lang = __webpack_require__(79);
-	var Errors = __webpack_require__(86);
+	var Errors = __webpack_require__(88);
 	var Attributes = __webpack_require__(81);
-	var AsyncResolvers = __webpack_require__(87);
+	var AsyncResolvers = __webpack_require__(89);
 	
 	var Validator = function(input, rules, customMessages) {
-		var lang = Validator.getDefaultLang();
-		this.input = input;
+	  var lang = Validator.getDefaultLang();
+	  this.input = input;
 	
-		this.messages = Lang._make(lang);
-		this.messages._setCustom(customMessages);
-		this.setAttributeFormatter(Validator.prototype.attributeFormatter);
+	  this.messages = Lang._make(lang);
+	  this.messages._setCustom(customMessages);
+	  this.setAttributeFormatter(Validator.prototype.attributeFormatter);
 	
-		this.errors = new Errors();
-		this.errorCount = 0;
-		
-		this.hasAsync = false;
-		this.rules = this._parseRules(rules);
+	  this.errors = new Errors();
+	  this.errorCount = 0;
+	
+	  this.hasAsync = false;
+	  this.rules = this._parseRules(rules);
 	};
 	
 	Validator.prototype = {
 	
-		constructor: Validator,
+	  constructor: Validator,
 	
-		/**
-		 * Default language
-		 *
-		 * @type {string}
-		 */
-		lang: 'en',
+	  /**
+	   * Default language
+	   *
+	   * @type {string}
+	   */
+	  lang: 'en',
 	
-		/**
-		 * Numeric based rules
-		 *
-		 * @type {array}
-		 */
-		numericRules: ['integer', 'numeric', 'between'],
+	  /**
+	   * Numeric based rules
+	   *
+	   * @type {array}
+	   */
+	  numericRules: ['integer', 'numeric'],
 	
-		/**
-		 * Attribute formatter.
-		 *
-		 * @type {function}
-		 */
-		attributeFormatter: Attributes.formatter,
+	  /**
+	   * Attribute formatter.
+	   *
+	   * @type {function}
+	   */
+	  attributeFormatter: Attributes.formatter,
 	
-		/**
-		 * Run validator
-		 *
-		 * @return {boolean} Whether it passes; true = passes, false = fails
-		 */
-		check: function() {
-			var self = this;
+	  /**
+	   * Run validator
+	   *
+	   * @return {boolean} Whether it passes; true = passes, false = fails
+	   */
+	  check: function() {
+	    var self = this;
 	
-			for (var attribute in this.rules) {
-				var attributeRules = this.rules[attribute];
-				var inputValue = this.input[attribute]; // if it doesnt exist in input, it will be undefined
+	    for (var attribute in this.rules) {
+	      var attributeRules = this.rules[attribute];
+	      var inputValue = this.input[attribute]; // if it doesnt exist in input, it will be undefined
 	
-				for (var i = 0, len = attributeRules.length, rule, ruleOptions, rulePassed; i < len; i++) {
-					ruleOptions = attributeRules[i];
-					rule = this.getRule(ruleOptions.name);
+	      for (var i = 0, len = attributeRules.length, rule, ruleOptions, rulePassed; i < len; i++) {
+	        ruleOptions = attributeRules[i];
+	        rule = this.getRule(ruleOptions.name);
 	
-					if (!this._isValidatable(rule, inputValue)) {
-						continue;
-					}
-					
-					rulePassed = rule.validate(inputValue, ruleOptions.value, attribute);
-					if (!rulePassed) {
-						this._addFailure(rule);
-					}
+	        if (!this._isValidatable(rule, inputValue)) {
+	          continue;
+	        }
 	
-					if (this._shouldStopValidating(attribute, rulePassed)) {
-						break;
-					}
-				}
-			}
+	        rulePassed = rule.validate(inputValue, ruleOptions.value, attribute);
+	        if (!rulePassed) {
+	          this._addFailure(rule);
+	        }
 	
-			return this.errorCount === 0;
-		},
+	        if (this._shouldStopValidating(attribute, rulePassed)) {
+	          break;
+	        }
+	      }
+	    }
 	
-		/**
-		 * Run async validator
-		 *
-		 * @param {function} passes
-		 * @param {function} fails
-		 * @return {void}
-		 */
-		/**
-		 * Run async validator
-		 *
-		 * @param {function} passes
-		 * @param {function} fails
-		 * @return {void}
-		 */
-		checkAsync: function(passes, fails) {
-			var _this = this;
-			passes = passes || function() {};
-			fails = fails || function() {};
+	    return this.errorCount === 0;
+	  },
 	
-			var failsOne = function(rule, message) {
-				_this._addFailure(rule, message);
-			};
+	  /**
+	   * Run async validator
+	   *
+	   * @param {function} passes
+	   * @param {function} fails
+	   * @return {void}
+	   */
+	  checkAsync: function(passes, fails) {
+	    var _this = this;
+	    passes = passes || function() {};
+	    fails = fails || function() {};
 	
-			var resolvedAll = function(allPassed) {
-				if (allPassed) {
-					passes();
-				}
-				else {
-					fails();
-				}
-			};
+	    var failsOne = function(rule, message) {
+	      _this._addFailure(rule, message);
+	    };
 	
-			var validateRule = function(inputValue, ruleOptions, attribute, rule) {
-				return function() {
-					var resolverIndex = asyncResolvers.add(rule);
-					rule.validate(inputValue, ruleOptions.value, attribute, function() { asyncResolvers.resolve(resolverIndex); });
-				};
-			};
+	    var resolvedAll = function(allPassed) {
+	      if (allPassed) {
+	        passes();
+	      } else {
+	        fails();
+	      }
+	    };
 	
-			var asyncResolvers = new AsyncResolvers(failsOne, resolvedAll);
+	    var validateRule = function(inputValue, ruleOptions, attribute, rule) {
+	      return function() {
+	        var resolverIndex = asyncResolvers.add(rule);
+	        rule.validate(inputValue, ruleOptions.value, attribute, function() {
+	          asyncResolvers.resolve(resolverIndex);
+	        });
+	      };
+	    };
 	
-			for (var attribute in this.rules) {
-				var attributeRules = this.rules[attribute];
-				var inputValue = this.input[attribute]; // if it doesnt exist in input, it will be undefined
+	    var asyncResolvers = new AsyncResolvers(failsOne, resolvedAll);
 	
-				for (var i = 0, len = attributeRules.length, rule, ruleOptions; i < len; i++) {
-					ruleOptions = attributeRules[i];
+	    for (var attribute in this.rules) {
+	      var attributeRules = this.rules[attribute];
+	      var inputValue = this.input[attribute]; // if it doesnt exist in input, it will be undefined
 	
-					rule = this.getRule(ruleOptions.name);
+	      for (var i = 0, len = attributeRules.length, rule, ruleOptions; i < len; i++) {
+	        ruleOptions = attributeRules[i];
 	
-					if (!this._isValidatable(rule, inputValue)) {
-						continue;
-					}
+	        rule = this.getRule(ruleOptions.name);
 	
-					validateRule(inputValue, ruleOptions, attribute, rule)();
-				}
-			}
+	        if (!this._isValidatable(rule, inputValue)) {
+	          continue;
+	        }
 	
-			asyncResolvers.enableFiring();
-			asyncResolvers.fire();
-		},
+	        validateRule(inputValue, ruleOptions, attribute, rule)();
+	      }
+	    }
 	
-		/**
-		 * Add failure and error message for given rule
-		 *
-		 * @param {Rule} rule
-		 */
-		_addFailure: function(rule) {
-			var msg = this.messages.render(rule);	
-			this.errors.add(rule.attribute, msg);
-			this.errorCount++;
-		},
+	    asyncResolvers.enableFiring();
+	    asyncResolvers.fire();
+	  },
 	
-		/**
-		 * Parse rules, normalizing format into: { attribute: [{ name: 'age', value: 3 }] }
-		 *
-		 * @param  {object} rules
-		 * @return {object}
-		 */
-		_parseRules: function(rules) {
-			var parsedRules = {};
-			for (var attribute in rules) {
-				var rulesArray = rules[attribute];
-				var attributeRules = [];
+	  /**
+	   * Add failure and error message for given rule
+	   *
+	   * @param {Rule} rule
+	   */
+	  _addFailure: function(rule) {
+	    var msg = this.messages.render(rule);
+	    this.errors.add(rule.attribute, msg);
+	    this.errorCount++;
+	  },
 	
-				if (typeof rulesArray === 'string') {
-					rulesArray = rulesArray.split('|');
-				}
-				
-				for (var i = 0, len = rulesArray.length, rule; i < len; i++) {
-					rule = this._extractRuleAndRuleValue(rulesArray[i]);
-					if (Rules.isAsync(rule.name)) {
-						this.hasAsync = true;
-					}
-					attributeRules.push(rule);
-				}
+	  /**
+	   * Parse rules, normalizing format into: { attribute: [{ name: 'age', value: 3 }] }
+	   *
+	   * @param  {object} rules
+	   * @return {object}
+	   */
+	  _parseRules: function(rules) {
+	    var parsedRules = {};
+	    for (var attribute in rules) {
+	      var rulesArray = rules[attribute];
+	      var attributeRules = [];
 	
-				parsedRules[attribute] = attributeRules;
-			}
-			return parsedRules;
-		},
+	      if (typeof rulesArray === 'string') {
+	        rulesArray = rulesArray.split('|');
+	      }
 	
-		/**
-		 * Extract a rule and a value from a ruleString (i.e. min:3), rule = min, value = 3
-		 * 
-		 * @param  {string} ruleString min:3
-		 * @return {object} object containing the name of the rule and value
-		 */
-		_extractRuleAndRuleValue: function(ruleString) {
-			var rule = {}, ruleArray;
+	      for (var i = 0, len = rulesArray.length, rule; i < len; i++) {
+	        rule = this._extractRuleAndRuleValue(rulesArray[i]);
+	        if (Rules.isAsync(rule.name)) {
+	          this.hasAsync = true;
+	        }
+	        attributeRules.push(rule);
+	      }
 	
-			rule.name = ruleString;
+	      parsedRules[attribute] = attributeRules;
+	    }
+	    return parsedRules;
+	  },
 	
-			if (ruleString.indexOf(':') >= 0) {
-				ruleArray = ruleString.split(':');
-				rule.name = ruleArray[0];
-				rule.value = ruleArray.slice(1).join(":");
-			}
+	  /**
+	   * Extract a rule and a value from a ruleString (i.e. min:3), rule = min, value = 3
+	   *
+	   * @param  {string} ruleString min:3
+	   * @return {object} object containing the name of the rule and value
+	   */
+	  _extractRuleAndRuleValue: function(ruleString) {
+	    var rule = {},
+	      ruleArray;
 	
-			return rule;
-		},
+	    rule.name = ruleString;
 	
-		/**
-		 * Determine if attribute has any of the given rules
-		 *
-		 * @param  {string}  attribute
-		 * @param  {array}   findRules
-		 * @return {boolean}
-		 */
-		_hasRule: function(attribute, findRules) {
-			var rules = this.rules[attribute] || [];
-			for (var i = 0, len = rules.length; i < len; i++) {
-				if (findRules.indexOf(rules[i].name) > -1) {
-					return true;
-				}
-			}
-			return false;
-		},
+	    if (ruleString.indexOf(':') >= 0) {
+	      ruleArray = ruleString.split(':');
+	      rule.name = ruleArray[0];
+	      rule.value = ruleArray.slice(1).join(":");
+	    }
 	
-		/**
-		 * Determine if attribute has any numeric-based rules.
-		 *
-		 * @param  {string}  attribute
-		 * @return {Boolean}
-		 */
-		_hasNumericRule: function(attribute) {
-			return this._hasRule(attribute, this.numericRules);
-		},
+	    return rule;
+	  },
 	
-		/**
-		 * Determine if rule is validatable
-		 *
-		 * @param  {Rule}   rule
-		 * @param  {mixed}  value
-		 * @return {boolean} 
-		 */
-		_isValidatable: function(rule, value) {
-			if (Rules.isImplicit(rule.name)) {
-				return true;
-			}
+	  /**
+	   * Determine if attribute has any of the given rules
+	   *
+	   * @param  {string}  attribute
+	   * @param  {array}   findRules
+	   * @return {boolean}
+	   */
+	  _hasRule: function(attribute, findRules) {
+	    var rules = this.rules[attribute] || [];
+	    for (var i = 0, len = rules.length; i < len; i++) {
+	      if (findRules.indexOf(rules[i].name) > -1) {
+	        return true;
+	      }
+	    }
+	    return false;
+	  },
 	
-			return this.getRule('required').validate(value);
-		},
+	  /**
+	   * Determine if attribute has any numeric-based rules.
+	   *
+	   * @param  {string}  attribute
+	   * @return {Boolean}
+	   */
+	  _hasNumericRule: function(attribute) {
+	    return this._hasRule(attribute, this.numericRules);
+	  },
+	
+	  /**
+	   * Determine if rule is validatable
+	   *
+	   * @param  {Rule}   rule
+	   * @param  {mixed}  value
+	   * @return {boolean}
+	   */
+	  _isValidatable: function(rule, value) {
+	    if (Rules.isImplicit(rule.name)) {
+	      return true;
+	    }
+	
+	    return this.getRule('required').validate(value);
+	  },
 	
 	
-		/**
-		 * Determine if we should stop validating.
-		 *
-		 * @param  {string} attribute
-		 * @param  {boolean} rulePassed
-		 * @return {boolean}
-		 */
-		_shouldStopValidating: function(attribute, rulePassed) {
+	  /**
+	   * Determine if we should stop validating.
+	   *
+	   * @param  {string} attribute
+	   * @param  {boolean} rulePassed
+	   * @return {boolean}
+	   */
+	  _shouldStopValidating: function(attribute, rulePassed) {
 	
-			var stopOnAttributes = this.stopOnAttributes;
-			if (stopOnAttributes === false || rulePassed === true) {
-				return false;
-			}
+	    var stopOnAttributes = this.stopOnAttributes;
+	    if (stopOnAttributes === false || rulePassed === true) {
+	      return false;
+	    }
 	
-			if (stopOnAttributes instanceof Array) {
-				return stopOnAttributes.indexOf(attribute) > -1;
-			}
+	    if (stopOnAttributes instanceof Array) {
+	      return stopOnAttributes.indexOf(attribute) > -1;
+	    }
 	
-			return true;
-		},
+	    return true;
+	  },
 	
-		/**
-		 * Set custom attribute names.
-		 *
-		 * @param {object} attributes
-		 * @return {void}
-		 */
-		setAttributeNames: function(attributes) {
-			this.messages._setAttributeNames(attributes);
-		},
+	  /**
+	   * Set custom attribute names.
+	   *
+	   * @param {object} attributes
+	   * @return {void}
+	   */
+	  setAttributeNames: function(attributes) {
+	    this.messages._setAttributeNames(attributes);
+	  },
 	
-		/**
-		 * Set the attribute formatter.
-		 *
-		 * @param {fuction} func
-		 * @return {void}
-		 */
-		setAttributeFormatter: function(func) {
-			this.messages._setAttributeFormatter(func);
-		},
+	  /**
+	   * Set the attribute formatter.
+	   *
+	   * @param {fuction} func
+	   * @return {void}
+	   */
+	  setAttributeFormatter: function(func) {
+	    this.messages._setAttributeFormatter(func);
+	  },
 	
-		/**
-		 * Get validation rule
-		 *
-		 * @param  {string} name
-		 * @return {Rule}
-		 */
-		getRule: function(name) {
-			return Rules.make(name, this);
-		},
+	  /**
+	   * Get validation rule
+	   *
+	   * @param  {string} name
+	   * @return {Rule}
+	   */
+	  getRule: function(name) {
+	    return Rules.make(name, this);
+	  },
 	
-		/**
-		 * Stop on first error.
-		 *
-		 * @param  {boolean|array} An array of attributes or boolean true/false for all attributes.
-		 * @return {void}
-		 */
-		stopOnError: function(attributes) {
-			this.stopOnAttributes = attributes;
-		},
+	  /**
+	   * Stop on first error.
+	   *
+	   * @param  {boolean|array} An array of attributes or boolean true/false for all attributes.
+	   * @return {void}
+	   */
+	  stopOnError: function(attributes) {
+	    this.stopOnAttributes = attributes;
+	  },
 	
-		/**
-		 * Determine if validation passes
-		 *
-		 * @param {function} passes
-		 * @return {boolean|undefined}
-		 */
-		passes: function(passes) {
-			var async = this._checkAsync('passes', passes);
-			if (async) {
-				return this.checkAsync(passes);
-			}
-			return this.check();
-		},
+	  /**
+	   * Determine if validation passes
+	   *
+	   * @param {function} passes
+	   * @return {boolean|undefined}
+	   */
+	  passes: function(passes) {
+	    var async = this._checkAsync('passes', passes);
+	    if (async) {
+	      return this.checkAsync(passes);
+	    }
+	    return this.check();
+	  },
 	
-		/**
-		 * Determine if validation fails
-		 *
-		 * @param {function} fails
-		 * @return {boolean|undefined}
-		 */
-		fails: function(fails) {
-			var async = this._checkAsync('fails', fails);
-			if (async) {
-				return this.checkAsync(function() {}, fails);
-			}
-			return !this.check();
-		},
+	  /**
+	   * Determine if validation fails
+	   *
+	   * @param {function} fails
+	   * @return {boolean|undefined}
+	   */
+	  fails: function(fails) {
+	    var async = this._checkAsync('fails', fails);
+	    if (async) {
+	      return this.checkAsync(function() {}, fails);
+	    }
+	    return !this.check();
+	  },
 	
-		/**
-		 * Check if validation should be called asynchronously
-		 *
-	 	 * @param  {string}   funcName Name of the caller
-		 * @param  {function} callback
-		 * @return {boolean}
-		 */
-		_checkAsync: function(funcName, callback) {
-			var hasCallback = typeof callback === 'function';
-			if (this.hasAsync && !hasCallback) {
-				throw funcName + ' expects a callback when async rules are being tested.';
-			}
+	  /**
+	   * Check if validation should be called asynchronously
+	   *
+	   * @param  {string}   funcName Name of the caller
+	   * @param  {function} callback
+	   * @return {boolean}
+	   */
+	  _checkAsync: function(funcName, callback) {
+	    var hasCallback = typeof callback === 'function';
+	    if (this.hasAsync && !hasCallback) {
+	      throw funcName + ' expects a callback when async rules are being tested.';
+	    }
 	
-			return this.hasAsync || hasCallback;
-		}
+	    return this.hasAsync || hasCallback;
+	  }
 	
 	};
 	
@@ -6203,8 +6227,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {this}
 	 */
 	Validator.setMessages = function(lang, messages) {
-		Lang._set(lang, messages);
-		return this;
+	  Lang._set(lang, messages);
+	  return this;
 	};
 	
 	/**
@@ -6214,7 +6238,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {Messages}
 	 */
 	Validator.getMessages = function(lang) {
-		return Lang._get(lang);
+	  return Lang._get(lang);
 	};
 	
 	/**
@@ -6224,7 +6248,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {void}
 	 */
 	Validator.useLang = function(lang) {
-		this.prototype.lang = lang;
+	  this.prototype.lang = lang;
 	};
 	
 	/**
@@ -6233,7 +6257,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {string}
 	 */
 	Validator.getDefaultLang = function() {
-		return this.prototype.lang;
+	  return this.prototype.lang;
 	};
 	
 	/**
@@ -6243,7 +6267,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {void}
 	 */
 	Validator.setAttributeFormatter = function(func) {
-		this.prototype.attributeFormatter = func;
+	  this.prototype.attributeFormatter = func;
 	};
 	
 	/**
@@ -6253,7 +6277,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {void}
 	 */
 	Validator.stopOnError = function(attributes) {
-		this.prototype.stopOnAttributes = attributes;
+	  this.prototype.stopOnAttributes = attributes;
 	};
 	
 	/**
@@ -6265,9 +6289,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {void}
 	 */
 	Validator.register = function(name, fn, message) {
-		var lang = Validator.getDefaultLang();
-		Rules.register(name, fn);
-		Lang._setRuleMessage(lang, name, message);
+	  var lang = Validator.getDefaultLang();
+	  Rules.register(name, fn);
+	  Lang._setRuleMessage(lang, name, message);
 	};
 	
 	/**
@@ -6279,9 +6303,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {void}
 	 */
 	Validator.registerAsync = function(name, fn, message) {
-		var lang = Validator.getDefaultLang();
-		Rules.registerAsync(name, fn);
-		Lang._setRuleMessage(lang, name, message);
+	  var lang = Validator.getDefaultLang();
+	  Rules.registerAsync(name, fn);
+	  Lang._setRuleMessage(lang, name, message);
 	};
 	
 	module.exports = Validator;
@@ -6293,413 +6317,415 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var rules = {
 	
-		required: function(val) {
-			var str;
+	  required: function(val) {
+	    var str;
 	
-			if (val === undefined || val === null) {
-				return false;
-			}
+	    if (val === undefined || val === null) {
+	      return false;
+	    }
 	
-			str = String(val).replace(/\s/g, "");
-			return str.length > 0 ? true : false;
-		},
+	    str = String(val).replace(/\s/g, "");
+	    return str.length > 0 ? true : false;
+	  },
 	
-		required_if: function(val, req, attribute) {
-			req = this.getParameters();
-			if (this.validator.input[req[0]] === req[1]) {
-				return this.validator.getRule('required').validate(val);
-			}
+	  required_if: function(val, req, attribute) {
+	    req = this.getParameters();
+	    if (this.validator.input[req[0]] === req[1]) {
+	      return this.validator.getRule('required').validate(val);
+	    }
 	
-			return true;
-		},
+	    return true;
+	  },
 	
-		// compares the size of strings
-		// with numbers, compares the value
-		size: function(val, req, attribute) {
-			if (val) {
-				req = parseFloat(req);
+	  // compares the size of strings
+	  // with numbers, compares the value
+	  size: function(val, req, attribute) {
+	    if (val) {
+	      req = parseFloat(req);
 	
-				var size = this.getSize();
+	      var size = this.getSize();
 	
-				return size === req;
-			}
+	      return size === req;
+	    }
 	
-			return true;
-		},
+	    return true;
+	  },
 	
-		/**
-		 * Compares the size of strings or the value of numbers if there is a truthy value
-		 */
-		min: function(val, req, attribute) {
-			var size = this.getSize();
-			return size >= req;
-		},
+	  string: function(val, req, attribute) {
+	    return typeof val === 'string';
+	  },
 	
-		/**
-		 * Compares the size of strings or the value of numbers if there is a truthy value
-		 */
-		max: function(val, req, attribute) {
-			var size = this.getSize();
-			return size <= req;
-		},
+	  /**
+	   * Compares the size of strings or the value of numbers if there is a truthy value
+	   */
+	  min: function(val, req, attribute) {
+	    var size = this.getSize();
+	    return size >= req;
+	  },
 	
-		between: function(val, req, attribute) {
-			req = this.getParameters();
-			var size = this.getSize();
-			var min = parseFloat(req[0], 10);
-			var max = parseFloat(req[1], 10);
-			return size >= min && size <= max;
-		},
+	  /**
+	   * Compares the size of strings or the value of numbers if there is a truthy value
+	   */
+	  max: function(val, req, attribute) {
+	    var size = this.getSize();
+	    return size <= req;
+	  },
 	
-		email: function(val) {
-			var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-			return re.test(val);
-		},
+	  between: function(val, req, attribute) {
+	    req = this.getParameters();
+	    var size = this.getSize();
+	    var min = parseFloat(req[0], 10);
+	    var max = parseFloat(req[1], 10);
+	    return size >= min && size <= max;
+	  },
 	
-		numeric: function(val) {
-			var num;
+	  email: function(val) {
+	    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	    return re.test(val);
+	  },
 	
-			num = Number(val); // tries to convert value to a number. useful if value is coming from form element
+	  numeric: function(val) {
+	    var num;
 	
-			if (typeof num === 'number' && !isNaN(num) && typeof val !== 'boolean') {
-				return true;
-			} else {
-				return false;
-			}
-		},
+	    num = Number(val); // tries to convert value to a number. useful if value is coming from form element
 	
-		array: function(val) {
-			return val instanceof Array;
-		},
+	    if (typeof num === 'number' && !isNaN(num) && typeof val !== 'boolean') {
+	      return true;
+	    } else {
+	      return false;
+	    }
+	  },
 	
-		url: function(url) {
-			return (/^https?:\/\/\S+/).test(url);
-		},
+	  array: function(val) {
+	    return val instanceof Array;
+	  },
 	
-		alpha: function(val) {
-			return (/^[a-zA-Z]+$/).test(val);
-		},
+	  url: function(url) {
+	    return (/^https?:\/\/\S+/).test(url);
+	  },
 	
-		alpha_dash: function(val) {
-			return (/^[a-zA-Z0-9_\-]+$/).test(val);
-		},
+	  alpha: function(val) {
+	    return (/^[a-zA-Z]+$/).test(val);
+	  },
 	
-		alpha_num: function(val) {
-			return (/^[a-zA-Z0-9]+$/).test(val);
-		},
+	  alpha_dash: function(val) {
+	    return (/^[a-zA-Z0-9_\-]+$/).test(val);
+	  },
 	
-		same: function(val, req) {
-			var val1 = this.validator.input[req];
-			var val2 = val;
+	  alpha_num: function(val) {
+	    return (/^[a-zA-Z0-9]+$/).test(val);
+	  },
 	
-			if (val1 === val2) {
-				return true;
-			}
+	  same: function(val, req) {
+	    var val1 = this.validator.input[req];
+	    var val2 = val;
 	
-			return false;
-		},
+	    if (val1 === val2) {
+	      return true;
+	    }
 	
-		different: function(val, req) {
-			var val1 = this.validator.input[req];
-			var val2 = val;
+	    return false;
+	  },
 	
-			if (val1 !== val2) {
-				return true;
-			}
+	  different: function(val, req) {
+	    var val1 = this.validator.input[req];
+	    var val2 = val;
 	
-			return false;
-		},
+	    if (val1 !== val2) {
+	      return true;
+	    }
 	
-		"in": function(val, req) {
-			var list, i;
+	    return false;
+	  },
 	
-			if (val) {
-				list = req.split(',');
-			}
+	  "in": function(val, req) {
+	    var list, i;
 	
-			if (val && !(val instanceof Array)) {
-				val = String(val); // if it is a number
+	    if (val) {
+	      list = req.split(',');
+	    }
 	
-				for (i = 0; i < list.length; i++) {
-					if (val === list[i]) {
-						return true;
-					}
-				}
+	    if (val && !(val instanceof Array)) {
+	      val = String(val); // if it is a number
 	
-				return false;
-			}
+	      for (i = 0; i < list.length; i++) {
+	        if (val === list[i]) {
+	          return true;
+	        }
+	      }
 	
-			if (val && val instanceof Array) {
-				for (i = 0; i < val.length; i++) {
-					if (list.indexOf(val[i]) < 0) {
-						return false;
-					}
-				}
-			}
+	      return false;
+	    }
 	
-			return true;
-		},
+	    if (val && val instanceof Array) {
+	      for (i = 0; i < val.length; i++) {
+	        if (list.indexOf(val[i]) < 0) {
+	          return false;
+	        }
+	      }
+	    }
 	
-		not_in: function(val, req) {
-			var list = req.split(',');
-			var len = list.length;
-			var returnVal = true;
+	    return true;
+	  },
 	
-			val = String(val); // convert val to a string if it is a number
+	  not_in: function(val, req) {
+	    var list = req.split(',');
+	    var len = list.length;
+	    var returnVal = true;
 	
-			for (var i = 0; i < len; i++) {
-				if (val === list[i]) {
-					returnVal = false;
-					break;
-				}
-			}
+	    val = String(val); // convert val to a string if it is a number
 	
-			return returnVal;
-		},
+	    for (var i = 0; i < len; i++) {
+	      if (val === list[i]) {
+	        returnVal = false;
+	        break;
+	      }
+	    }
 	
-		accepted: function(val) {
-			if (val === 'on' || val === 'yes' || val === 1 || val === '1') {
-				return true;
-			}
+	    return returnVal;
+	  },
 	
-			return false;
-		},
+	  accepted: function(val) {
+	    if (val === 'on' || val === 'yes' || val === 1 || val === '1' || val === true) {
+	      return true;
+	    }
 	
-		confirmed: function(val, req, key) {
-			var confirmedKey = key + '_confirmation';
+	    return false;
+	  },
 	
-			if (this.validator.input[confirmedKey] === val) {
-				return true;
-			}
+	  confirmed: function(val, req, key) {
+	    var confirmedKey = key + '_confirmation';
 	
-			return false;
-		},
+	    if (this.validator.input[confirmedKey] === val) {
+	      return true;
+	    }
 	
-		integer: function(val) {
-			return String(parseInt(val, 10)) === String(val);
-		},
+	    return false;
+	  },
 	
-		digits: function(val, req) {
-			var numericRule = this.validator.getRule('numeric');
-			if (numericRule.validate(val) && String(val).length === parseInt(req)) {
-				return true;
-			}
+	  integer: function(val) {
+	    return String(parseInt(val, 10)) === String(val);
+	  },
 	
-			return false;
-		},
+	  digits: function(val, req) {
+	    var numericRule = this.validator.getRule('numeric');
+	    if (numericRule.validate(val) && String(val).length === parseInt(req)) {
+	      return true;
+	    }
 	
-		regex: function(val, req) {
-			var mod = /[g|i|m]{1,3}$/;
-			var flag = req.match(mod);
-			flag = flag ? flag[0] : "i";
-			req = req.replace(mod,"").slice(1,-1);
-			req = new RegExp(req,flag);
-			return !!val.match(req);
-		}
+	    return false;
+	  },
+	
+	  regex: function(val, req) {
+	    var mod = /[g|i|m]{1,3}$/;
+	    var flag = req.match(mod);
+	    flag = flag ? flag[0] : "i";
+	    req = req.replace(mod, "").slice(1, -1);
+	    req = new RegExp(req, flag);
+	    return !!val.match(req);
+	  }
 	
 	};
 	
 	function Rule(name, fn, async) {
-		this.name = name;
-		this.fn = fn;
-		this.passes = null;
-		this.customMessage = undefined;
-		this.async = async;
+	  this.name = name;
+	  this.fn = fn;
+	  this.passes = null;
+	  this.customMessage = undefined;
+	  this.async = async;
 	}
 	
 	Rule.prototype = {
 	
-		/**
-		 * Validate rule
-		 *
-		 * @param  {mixed} inputValue
-		 * @param  {mixed} ruleValue
-		 * @param  {string} attribute
-		 * @param  {function} callback
-		 * @return {boolean|undefined}
-		 */
-		validate: function(inputValue, ruleValue, attribute, callback) {
-			var _this = this;
-			this._setValidatingData(attribute, inputValue, ruleValue);
-			if (typeof callback === 'function') {
-				this.callback = callback;
-				var handleResponse = function(passes, message) {
-					_this.response(passes, message);
-				};
+	  /**
+	   * Validate rule
+	   *
+	   * @param  {mixed} inputValue
+	   * @param  {mixed} ruleValue
+	   * @param  {string} attribute
+	   * @param  {function} callback
+	   * @return {boolean|undefined}
+	   */
+	  validate: function(inputValue, ruleValue, attribute, callback) {
+	    var _this = this;
+	    this._setValidatingData(attribute, inputValue, ruleValue);
+	    if (typeof callback === 'function') {
+	      this.callback = callback;
+	      var handleResponse = function(passes, message) {
+	        _this.response(passes, message);
+	      };
 	
-				if (this.async) {
-					return this.fn.apply(this, [inputValue, ruleValue, attribute, handleResponse]);
-				}
-				else {
-					return handleResponse(this.fn.apply(this, [inputValue, ruleValue, attribute]));
-				}
-			}
-			return this.fn.apply(this, [inputValue, ruleValue, attribute]);
-		},
+	      if (this.async) {
+	        return this.fn.apply(this, [inputValue, ruleValue, attribute, handleResponse]);
+	      } else {
+	        return handleResponse(this.fn.apply(this, [inputValue, ruleValue, attribute]));
+	      }
+	    }
+	    return this.fn.apply(this, [inputValue, ruleValue, attribute]);
+	  },
 	
-		/**
-		 * Set validating data
-		 *
-		 * @param {string} attribute
-		 * @param {mixed} inputValue
-		 * @param {mixed} ruleValue
-		 * @return {void}
-		 */
-		_setValidatingData: function(attribute, inputValue, ruleValue) {
-			this.attribute = attribute;
-			this.inputValue = inputValue;
-			this.ruleValue = ruleValue;
-		},
+	  /**
+	   * Set validating data
+	   *
+	   * @param {string} attribute
+	   * @param {mixed} inputValue
+	   * @param {mixed} ruleValue
+	   * @return {void}
+	   */
+	  _setValidatingData: function(attribute, inputValue, ruleValue) {
+	    this.attribute = attribute;
+	    this.inputValue = inputValue;
+	    this.ruleValue = ruleValue;
+	  },
 	
-		/**
-		 * Get parameters
-		 *
-		 * @return {array}
-		 */
-		getParameters: function() {
-			return this.ruleValue ? this.ruleValue.split(',') : [];
-		},
+	  /**
+	   * Get parameters
+	   *
+	   * @return {array}
+	   */
+	  getParameters: function() {
+	    return this.ruleValue ? this.ruleValue.split(',') : [];
+	  },
 	
-		/**
-		 * Get true size of value
-		 *
-		 * @return {integer|float}
-		 */
-		getSize: function() {
-			var value = this.inputValue;
+	  /**
+	   * Get true size of value
+	   *
+	   * @return {integer|float}
+	   */
+	  getSize: function() {
+	    var value = this.inputValue;
 	
-			if (value instanceof Array) {
-				return value.length;
-			}
+	    if (value instanceof Array) {
+	      return value.length;
+	    }
 	
-			if (typeof value === 'number') {
-				return value;
-			}
+	    if (typeof value === 'number') {
+	      return value;
+	    }
 	
-			if (this.validator._hasNumericRule(this.attribute)) {
-				return parseFloat(value, 10);
-			}
+	    if (this.validator._hasNumericRule(this.attribute)) {
+	      return parseFloat(value, 10);
+	    }
 	
-			return value.length;
-		},
+	    return value.length;
+	  },
 	
-		/**
-		 * Get the type of value being checked; numeric or string.
-		 *
-		 * @return {string}
-		 */
-		_getValueType: function() {
-			
-			if (typeof this.inputValue === 'number' || this.validator._hasNumericRule(this.attribute))
-			{
-				return 'numeric';
-			}
+	  /**
+	   * Get the type of value being checked; numeric or string.
+	   *
+	   * @return {string}
+	   */
+	  _getValueType: function() {
 	
-			return 'string';
-		},
+	    if (typeof this.inputValue === 'number' || this.validator._hasNumericRule(this.attribute)) {
+	      return 'numeric';
+	    }
 	
-		/**
-		 * Set the async callback response
-		 *
-		 * @param  {boolean|undefined} passes  Whether validation passed
-		 * @param  {string|undefined} message Custom error message
-		 * @return {void}
-		 */
-		response: function(passes, message) {
-			this.passes = (passes === undefined || passes === true);
-			this.customMessage = message;
-			this.callback(this.passes, message);
-		},
+	    return 'string';
+	  },
 	
-		/**
-		 * Set validator instance
-		 *
-		 * @param {Validator} validator
-		 * @return {void}
-		 */
-		setValidator: function(validator) {
-			this.validator = validator;
-		}
+	  /**
+	   * Set the async callback response
+	   *
+	   * @param  {boolean|undefined} passes  Whether validation passed
+	   * @param  {string|undefined} message Custom error message
+	   * @return {void}
+	   */
+	  response: function(passes, message) {
+	    this.passes = (passes === undefined || passes === true);
+	    this.customMessage = message;
+	    this.callback(this.passes, message);
+	  },
+	
+	  /**
+	   * Set validator instance
+	   *
+	   * @param {Validator} validator
+	   * @return {void}
+	   */
+	  setValidator: function(validator) {
+	    this.validator = validator;
+	  }
 	
 	};
 	
 	var manager = {
 	
-		/**
-		 * List of async rule names
-		 *
-		 * @type {Array}
-		 */
-		asyncRules: [],
+	  /**
+	   * List of async rule names
+	   *
+	   * @type {Array}
+	   */
+	  asyncRules: [],
 	
-		/**
-		 * Implicit rules (rules to always validate)
-		 *
-		 * @type {Array}
-		 */
-		implicitRules: ['required', 'required_if', 'accepted'],
+	  /**
+	   * Implicit rules (rules to always validate)
+	   *
+	   * @type {Array}
+	   */
+	  implicitRules: ['required', 'required_if', 'accepted'],
 	
-		/**
-		 * Get rule by name
-		 *
-		 * @param  {string} name
-		 * @param {Validator}
-		 * @return {Rule}
-		 */
-		make: function(name, validator) {
-			var async = this.isAsync(name);
-			var rule = new Rule(name, rules[name], async);
-			rule.setValidator(validator);
-			return rule;
-		},
+	  /**
+	   * Get rule by name
+	   *
+	   * @param  {string} name
+	   * @param {Validator}
+	   * @return {Rule}
+	   */
+	  make: function(name, validator) {
+	    var async = this.isAsync(name);
+	    var rule = new Rule(name, rules[name], async);
+	    rule.setValidator(validator);
+	    return rule;
+	  },
 	
-		/**
-		 * Determine if given rule is async
-		 *
-		 * @param  {string}  name
-		 * @return {boolean}
-		 */
-		isAsync: function(name) {
-			for (var i = 0, len = this.asyncRules.length; i < len; i++) {
-				if (this.asyncRules[i] === name) {
-					return true;
-				}
-			}
-			return false;
-		},
+	  /**
+	   * Determine if given rule is async
+	   *
+	   * @param  {string}  name
+	   * @return {boolean}
+	   */
+	  isAsync: function(name) {
+	    for (var i = 0, len = this.asyncRules.length; i < len; i++) {
+	      if (this.asyncRules[i] === name) {
+	        return true;
+	      }
+	    }
+	    return false;
+	  },
 	
-		/**
-		 * Determine if rule is implicit (should always validate)
-		 *
-		 * @param {string} name
-		 * @return {boolean}
-		 */
-		isImplicit: function(name) {
-			return this.implicitRules.indexOf(name) > -1;
-		},
+	  /**
+	   * Determine if rule is implicit (should always validate)
+	   *
+	   * @param {string} name
+	   * @return {boolean}
+	   */
+	  isImplicit: function(name) {
+	    return this.implicitRules.indexOf(name) > -1;
+	  },
 	
-		/**
-		 * Register new rule
-		 *
-		 * @param  {string}   name
-		 * @param  {function} fn
-		 * @return {void}
-		 */
-		register: function(name, fn) {
-			rules[name] = fn;
-		},
+	  /**
+	   * Register new rule
+	   *
+	   * @param  {string}   name
+	   * @param  {function} fn
+	   * @return {void}
+	   */
+	  register: function(name, fn) {
+	    rules[name] = fn;
+	  },
 	
-		/**
-		 * Register async rule
-		 *
-		 * @param  {string}   name
-		 * @param  {function} fn
-		 * @return {void}
-		 */
-		registerAsync: function(name, fn) {
-			this.register(name, fn);
-			this.asyncRules.push(name);
-		}
+	  /**
+	   * Register async rule
+	   *
+	   * @param  {string}   name
+	   * @param  {function} fn
+	   * @return {void}
+	   */
+	  registerAsync: function(name, fn) {
+	    this.register(name, fn);
+	    this.asyncRules.push(name);
+	  }
 	
 	};
 	
@@ -6717,70 +6743,70 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var container = {
 	
-		messages: {},
+	  messages: {},
 	
-		/**
-		 * Set messages for language
-		 *
-		 * @param {string} lang
-		 * @param {object} rawMessages
-		 * @return {void}
-		 */
-		_set: function(lang, rawMessages) {
-			this.messages[lang] = rawMessages;
-		},
+	  /**
+	   * Set messages for language
+	   *
+	   * @param {string} lang
+	   * @param {object} rawMessages
+	   * @return {void}
+	   */
+	  _set: function(lang, rawMessages) {
+	    this.messages[lang] = rawMessages;
+	  },
 	
-		/**
-		 * Set message for given language's rule.
-		 *
-		 * @param {string} lang
-		 * @param {string} attribute
-		 * @param {string|object} message
-		 * @return {void}
-		 */
-		_setRuleMessage: function(lang, attribute, message) {
-			this._load(lang);
-			if (message === undefined) {
-				message = this.messages[lang].def;
-			}
+	  /**
+	   * Set message for given language's rule.
+	   *
+	   * @param {string} lang
+	   * @param {string} attribute
+	   * @param {string|object} message
+	   * @return {void}
+	   */
+	  _setRuleMessage: function(lang, attribute, message) {
+	    this._load(lang);
+	    if (message === undefined) {
+	      message = this.messages[lang].def;
+	    }
 	
-			this.messages[lang][attribute] = message;
-		},
+	    this.messages[lang][attribute] = message;
+	  },
 	
-		/**
-		 * Load messages (if not already loaded)
-		 *
-		 * @param  {string} lang 
-		 * @return {void}
-		 */
-		_load: function(lang) {
-			if (!this.messages[lang]) {
-				var rawMessages = __webpack_require__(83)("./" + lang);
-				this._set(lang, rawMessages);
-			}
-		},
+	  /**
+	   * Load messages (if not already loaded)
+	   *
+	   * @param  {string} lang
+	   * @return {void}
+	   */
+	  _load: function(lang) {
+	    if (!this.messages[lang]) {
+	      var rawMessages = __webpack_require__(83)("./" + lang);
+	      this._set(lang, rawMessages);
+	    }
+	  },
 	
-		/**
-		 * Get raw messages for language
-		 *
-		 * @param  {string} lang
-		 * @return {object}
-		 */
-		_get: function(lang) {
-			this._load(lang);
-			return this.messages[lang];
-		},
+	  /**
+	   * Get raw messages for language
+	   *
+	   * @param  {string} lang
+	   * @return {object}
+	   */
+	  _get: function(lang) {
+	    this._load(lang);
+	    return this.messages[lang];
+	  },
 	
-		/**
-		 * Make messages for given language
-		 *
-		 * @param  {string} lang
-		 * @return {Messages}
-		 */
-		_make: function(lang) {
-			this._load(lang);
-			return new Messages(lang, this.messages[lang]);
-		}
+	  /**
+	   * Make messages for given language
+	   *
+	   * @param  {string} lang
+	   * @return {Messages}
+	   */
+	  _make: function(lang) {
+	    this._load(lang);
+	    return new Messages(lang, this.messages[lang]);
+	  }
 	
 	};
 	
@@ -6794,155 +6820,151 @@ return /******/ (function(modules) { // webpackBootstrap
 	var Attributes = __webpack_require__(81);
 	
 	var Messages = function(lang, messages) {
-		this.lang = lang;
-		this.messages = messages;
-		this.customMessages = {};
-		this.attributeNames = {};
+	  this.lang = lang;
+	  this.messages = messages;
+	  this.customMessages = {};
+	  this.attributeNames = {};
 	};
 	
 	Messages.prototype = {
-		constructor: Messages,
+	  constructor: Messages,
 	
-		/**
-		 * Set custom messages
-		 *
-		 * @param {object} customMessages
-		 * @return {void}
-		 */
-		_setCustom: function(customMessages) {
-			this.customMessages = customMessages || {};
-		},
+	  /**
+	   * Set custom messages
+	   *
+	   * @param {object} customMessages
+	   * @return {void}
+	   */
+	  _setCustom: function(customMessages) {
+	    this.customMessages = customMessages || {};
+	  },
 	
-		/**
-		 * Set custom attribute names.
-		 *
-		 * @param {object} attributes
-		 */
-		_setAttributeNames: function(attributes) {
-			this.attributeNames = attributes;
-		},
+	  /**
+	   * Set custom attribute names.
+	   *
+	   * @param {object} attributes
+	   */
+	  _setAttributeNames: function(attributes) {
+	    this.attributeNames = attributes;
+	  },
 	
-		/**
-		 * Set the attribute formatter.
-		 *
-		 * @param {fuction} func
-		 * @return {void}
-		 */
-		_setAttributeFormatter: function(func) {
-			this.attributeFormatter = func;
-		},
+	  /**
+	   * Set the attribute formatter.
+	   *
+	   * @param {fuction} func
+	   * @return {void}
+	   */
+	  _setAttributeFormatter: function(func) {
+	    this.attributeFormatter = func;
+	  },
 	
-		/**
-		 * Get attribute name to display.
-		 *
-		 * @param  {string} attribute
-		 * @return {string}
-		 */
-		_getAttributeName: function(attribute) {
-			var name = attribute;
-			if (this.attributeNames.hasOwnProperty(attribute)) {
-				return this.attributeNames[attribute];
-			}
-			else if (this.messages.attributes.hasOwnProperty(attribute)) {
-				name = this.messages.attributes[attribute];
-			}
+	  /**
+	   * Get attribute name to display.
+	   *
+	   * @param  {string} attribute
+	   * @return {string}
+	   */
+	  _getAttributeName: function(attribute) {
+	    var name = attribute;
+	    if (this.attributeNames.hasOwnProperty(attribute)) {
+	      return this.attributeNames[attribute];
+	    } else if (this.messages.attributes.hasOwnProperty(attribute)) {
+	      name = this.messages.attributes[attribute];
+	    }
 	
-			if (this.attributeFormatter)
-			{
-				name = this.attributeFormatter(name);
-			}
-			
-			return name;
-		},
+	    if (this.attributeFormatter) {
+	      name = this.attributeFormatter(name);
+	    }
 	
-		/**
-		 * Get all messages
-		 *
-		 * @return {object}
-		 */
-		all: function() {
-			return this.messages;
-		},
+	    return name;
+	  },
 	
-		/**
-		 * Render message
-		 *
-		 * @param  {Rule} rule
-		 * @return {string}
-		 */
-		render: function(rule) {
-			if (rule.customMessage) {
-				return rule.customMessage;
-			}
-			var template = this._getTemplate(rule);
+	  /**
+	   * Get all messages
+	   *
+	   * @return {object}
+	   */
+	  all: function() {
+	    return this.messages;
+	  },
 	
-			var message;
-			if (Attributes.replacements[rule.name]) {
-				message = Attributes.replacements[rule.name].apply(this, [template, rule]);
-			}
-			else {
-				message = this._replacePlaceholders(rule, template, {});
-			}
+	  /**
+	   * Render message
+	   *
+	   * @param  {Rule} rule
+	   * @return {string}
+	   */
+	  render: function(rule) {
+	    if (rule.customMessage) {
+	      return rule.customMessage;
+	    }
+	    var template = this._getTemplate(rule);
 	
-			return message;
-		},
+	    var message;
+	    if (Attributes.replacements[rule.name]) {
+	      message = Attributes.replacements[rule.name].apply(this, [template, rule]);
+	    } else {
+	      message = this._replacePlaceholders(rule, template, {});
+	    }
 	
-		/**
-		 * Get the template to use for given rule
-		 *
-		 * @param  {Rule} rule
-		 * @return {string}
-		 */
-		_getTemplate: function(rule) {
+	    return message;
+	  },
 	
-			var messages = this.messages;
-			var template = messages.def;
-			var customMessages = this.customMessages;
-			var formats = [rule.name + '.' + rule.attribute, rule.name];
+	  /**
+	   * Get the template to use for given rule
+	   *
+	   * @param  {Rule} rule
+	   * @return {string}
+	   */
+	  _getTemplate: function(rule) {
 	
-			for (var i = 0, format; i < formats.length; i++) {
-				format = formats[i];
-				if (customMessages.hasOwnProperty(format)) {
-					template = customMessages[format];
-					break;
-				}
-				else if (messages.hasOwnProperty(format)) {
-					template = messages[format];
-					break;
-				}
-			}
+	    var messages = this.messages;
+	    var template = messages.def;
+	    var customMessages = this.customMessages;
+	    var formats = [rule.name + '.' + rule.attribute, rule.name];
 	
-			if (typeof template === 'object') {
-				template = template[rule._getValueType()];
-			}
+	    for (var i = 0, format; i < formats.length; i++) {
+	      format = formats[i];
+	      if (customMessages.hasOwnProperty(format)) {
+	        template = customMessages[format];
+	        break;
+	      } else if (messages.hasOwnProperty(format)) {
+	        template = messages[format];
+	        break;
+	      }
+	    }
 	
-			return template;
-		},
+	    if (typeof template === 'object') {
+	      template = template[rule._getValueType()];
+	    }
 	
-		/**
-		 * Replace placeholders in the template using the data object
-		 *
-		 * @param  {Rule} rule
-		 * @param  {string} template
-		 * @param  {object} data
-		 * @return {string}
-		 */
-		_replacePlaceholders: function(rule, template, data) {
-			var message, attribute;
+	    return template;
+	  },
 	
-			data.attribute = this._getAttributeName(rule.attribute);
-			data[rule.name] = rule.getParameters().join(',');
+	  /**
+	   * Replace placeholders in the template using the data object
+	   *
+	   * @param  {Rule} rule
+	   * @param  {string} template
+	   * @param  {object} data
+	   * @return {string}
+	   */
+	  _replacePlaceholders: function(rule, template, data) {
+	    var message, attribute;
 	
-			if (typeof template === 'string' && typeof data === 'object') {
-				message = template;
+	    data.attribute = this._getAttributeName(rule.attribute);
+	    data[rule.name] = rule.getParameters().join(',');
 	
-				for (attribute in data) {
-					message = message.replace(':' + attribute, data[attribute]);
-				}
-			}
+	    if (typeof template === 'string' && typeof data === 'object') {
+	      message = template;
 	
-			return message;
-		}
+	      for (attribute in data) {
+	        message = message.replace(new RegExp(':' + attribute, 'g'), data[attribute]);
+	      }
+	    }
+	
+	    return message;
+	  }
 	
 	};
 	
@@ -6955,39 +6977,44 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var replacements = {
 	
-		/**
-		 * Between replacement (replaces :min and :max)
-		 *
-		 * @param  {string} template
-		 * @param  {Rule} rule
-		 * @return {string}
-		 */
-		between: function(template, rule) {
-			var parameters = rule.getParameters();
-			return this._replacePlaceholders(rule, template, { min: parameters[0], max: parameters[1] });
-		},
+	  /**
+	   * Between replacement (replaces :min and :max)
+	   *
+	   * @param  {string} template
+	   * @param  {Rule} rule
+	   * @return {string}
+	   */
+	  between: function(template, rule) {
+	    var parameters = rule.getParameters();
+	    return this._replacePlaceholders(rule, template, {
+	      min: parameters[0],
+	      max: parameters[1]
+	    });
+	  },
 	
-		/**
-		 * Required_if replacement.
-		 *
-		 * @param  {string} template
-		 * @param  {Rule} rule
-		 * @return {string}
-		 */
-		required_if: function(template, rule) {
-			var parameters = rule.getParameters();
-			return this._replacePlaceholders(rule, template, { other: parameters[0], value: parameters[1] });
-		}
+	  /**
+	   * Required_if replacement.
+	   *
+	   * @param  {string} template
+	   * @param  {Rule} rule
+	   * @return {string}
+	   */
+	  required_if: function(template, rule) {
+	    var parameters = rule.getParameters();
+	    return this._replacePlaceholders(rule, template, {
+	      other: parameters[0],
+	      value: parameters[1]
+	    });
+	  }
 	};
 	
-	function formatter(attribute)
-	{
-		return attribute.replace(/[_\[]/g, ' ').replace(/]/g, '');
+	function formatter(attribute) {
+	  return attribute.replace(/[_\[]/g, ' ').replace(/]/g, '');
 	}
 	
 	module.exports = {
-		replacements: replacements,
-		formatter: formatter
+	  replacements: replacements,
+	  formatter: formatter
 	};
 
 
@@ -6996,39 +7023,41 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = {
-		accepted: 'The :attribute must be accepted.',
-		alpha: 'The :attribute field must contain only alphabetic characters.',
-		alpha_dash: 'The :attribute field may only contain alpha-numeric characters, as well as dashes and underscores.',
-		alpha_num: 'The :attribute field must be alphanumeric.',
-		between: 'The :attribute field must be between :min and :max.',
-		confirmed: 'The :attribute confirmation does not match.',
-		email: 'The :attribute format is invalid.',
-		def: 'The :attribute attribute has errors.',
-		digits: 'The :attribute must be :digits digits.',
-		different: 'The :attribute and :different must be different.',
-		'in': 'The selected :attribute is invalid.',
-		integer: 'The :attribute must be an integer.',
-		min: {
-			numeric: 'The :attribute must be at least :min.',
-			string: 'The :attribute must be at least :min characters.'
-		},
-		max: {
-			numeric: 'The :attribute must be less than :max.',
-			string: 'The :attribute must be less than :max characters.'
-		},
-		not_in: 'The selected :attribute is invalid.',
-		numeric: 'The :attribute must be a number.',
-		required: 'The :attribute field is required.',
-		required_if: 'The :attribute field is required when :other is :value.',
-		same: 'The :attribute and :same fields must match.',
-		size: {
-			numeric: 'The :attribute must be :size.',
-			string: 'The :attribute must be :size characters.'
-		},
-		url: 'The :attribute format is invalid.',
-		regex: 'The :attribute format is invalid',
-		attributes: {}
+	  accepted: 'The :attribute must be accepted.',
+	  alpha: 'The :attribute field must contain only alphabetic characters.',
+	  alpha_dash: 'The :attribute field may only contain alpha-numeric characters, as well as dashes and underscores.',
+	  alpha_num: 'The :attribute field must be alphanumeric.',
+	  between: 'The :attribute field must be between :min and :max.',
+	  confirmed: 'The :attribute confirmation does not match.',
+	  email: 'The :attribute format is invalid.',
+	  def: 'The :attribute attribute has errors.',
+	  digits: 'The :attribute must be :digits digits.',
+	  different: 'The :attribute and :different must be different.',
+	  'in': 'The selected :attribute is invalid.',
+	  integer: 'The :attribute must be an integer.',
+	  min: {
+	    numeric: 'The :attribute must be at least :min.',
+	    string: 'The :attribute must be at least :min characters.'
+	  },
+	  max: {
+	    numeric: 'The :attribute may not be greater than :max.',
+	    string: 'The :attribute may not be greater than :max characters.'
+	  },
+	  not_in: 'The selected :attribute is invalid.',
+	  numeric: 'The :attribute must be a number.',
+	  required: 'The :attribute field is required.',
+	  required_if: 'The :attribute field is required when :other is :value.',
+	  same: 'The :attribute and :same fields must match.',
+	  size: {
+	    numeric: 'The :attribute must be :size.',
+	    string: 'The :attribute must be :size characters.'
+	  },
+	  string: 'The :attribute must be a string.',
+	  url: 'The :attribute format is invalid.',
+	  regex: 'The :attribute format is invalid',
+	  attributes: {}
 	};
+
 
 /***/ },
 /* 83 */
@@ -7039,8 +7068,12 @@ return /******/ (function(modules) { // webpackBootstrap
 		"./en.js": 82,
 		"./es": 84,
 		"./es.js": 84,
-		"./ru": 85,
-		"./ru.js": 85
+		"./fr": 85,
+		"./fr.js": 85,
+		"./it": 86,
+		"./it.js": 86,
+		"./ru": 87,
+		"./ru.js": 87
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -7061,37 +7094,37 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = {
-	    accepted: 'El campo :attribute debe ser aceptado.',
-	    alpha: 'El campo :attribute solo debe contener letras.',
-	    alpha_dash: 'El campo :attribute solo debe contener letras, números y guiones.',
-	    alpha_num: 'El campo :attribute solo debe contener letras y números.',
-	    attributes: {},
-	    between: 'El campo :attribute tiene que estar entre :min - :max.',
-	    confirmed: 'La confirmación de :attribute no coincide.',
-	    different: 'El campo :attribute y :other deben ser diferentes.',
-	    digits: 'El campo :attribute debe tener :digits dígitos.',
-	    email: 'El campo :attribute no es un correo válido',
-	    'in': 'El campo :attribute es inválido.',
-	    integer: 'El campo :attribute debe ser un número entero.',
-	    max: {
-	        numeric: 'El campo :attribute no debe ser mayor a :max.',
-	        string: 'El campo :attribute no debe ser mayor que :max caracteres.'
-	    },
-	    min: {
-	        numeric: 'El tamaño del campo :attribute debe ser de al menos :min.',
-	        string: 'El campo :attribute debe contener al menos :min caracteres.'
-	    },
-	    not_in: 'El campo :attribute es inválido.',
-	    numeric: 'El campo :attribute debe ser numérico.',
-	    regex: 'El formato del campo :attribute es inválido.',
-	    required: 'El campo :attribute es obligatorio.',
-	    required_if: 'El campo :attribute es obligatorio cuando :other es :value.',
-	    same: 'El campo :attribute y :other deben coincidir.',
-	    size: {
-	        numeric: 'El tamaño del campo :attribute debe ser :size.',
-	        string: 'El campo :attribute debe contener :size caracteres.'
-	    },
-	    url: 'El formato de :attribute es inválido.'
+	  accepted: 'El campo :attribute debe ser aceptado.',
+	  alpha: 'El campo :attribute solo debe contener letras.',
+	  alpha_dash: 'El campo :attribute solo debe contener letras, números y guiones.',
+	  alpha_num: 'El campo :attribute solo debe contener letras y números.',
+	  attributes: {},
+	  between: 'El campo :attribute tiene que estar entre :min - :max.',
+	  confirmed: 'La confirmación de :attribute no coincide.',
+	  different: 'El campo :attribute y :other deben ser diferentes.',
+	  digits: 'El campo :attribute debe tener :digits dígitos.',
+	  email: 'El campo :attribute no es un correo válido',
+	  'in': 'El campo :attribute es inválido.',
+	  integer: 'El campo :attribute debe ser un número entero.',
+	  max: {
+	    numeric: 'El campo :attribute no debe ser mayor a :max.',
+	    string: 'El campo :attribute no debe ser mayor que :max caracteres.'
+	  },
+	  min: {
+	    numeric: 'El tamaño del campo :attribute debe ser de al menos :min.',
+	    string: 'El campo :attribute debe contener al menos :min caracteres.'
+	  },
+	  not_in: 'El campo :attribute es inválido.',
+	  numeric: 'El campo :attribute debe ser numérico.',
+	  regex: 'El formato del campo :attribute es inválido.',
+	  required: 'El campo :attribute es obligatorio.',
+	  required_if: 'El campo :attribute es obligatorio cuando :other es :value.',
+	  same: 'El campo :attribute y :other deben coincidir.',
+	  size: {
+	    numeric: 'El tamaño del campo :attribute debe ser :size.',
+	    string: 'El campo :attribute debe contener :size caracteres.'
+	  },
+	  url: 'El formato de :attribute es inválido.'
 	};
 
 
@@ -7100,201 +7133,286 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ function(module, exports) {
 
 	module.exports = {
-		accepted: 'Вы должны принять :attribute.',
-		alpha: 'Поле :attribute может содержать только буквы.',
-		alpha_dash: '"Поле :attribute может содержать только буквы, цифры, дефисы и символы подчёркивания.',
-		alpha_num: 'Поле :attribute может содержать только буквы и цифры.',
-		between: 'Поле :attribute должно быть между :min :max и.',
-		confirmed: 'Поле :attribute не совпадает с подтверждением.',
-		email: 'Поле :attribute должно быть действительным электронным адресом.',
-		def: 'Поле :attribute содержит ошибки.',
-		digits: 'Длина цифрового поля :attribute должна быть :digits.',
-		different: 'Поля :attribute и :different должны различаться.',
-		'in': 'Выбранное значение для :attribute ошибочно.',
-		integer: 'Поле :attribute должно быть целым числом.',
-		min: {
-			numeric: 'Поле :attribute должно быть не менее :min.',
-			string: 'Количество символов в поле :attribute должно быть не менее :min.'
-		},
-		max: {
-			numeric: 'Поле :attribute не может быть более :max.',
-			string: 'Количество символов в поле :attribute не может превышать :max.'
-		},
-		not_in: 'Выбранное значение для :attribute ошибочно.',
-		numeric: 'Поле :attribute должно быть числом.',
-		required: 'Поле :attribute обязательно для заполнения.',
-		required_if: 'Поле :attribute требуется при :attribute :other является.',
-		same: 'Значение :attribute должно совпадать с :same.',
-		size: {
-			numeric: 'Поле :attribute должно быть равным :size.',
-			string: 'Количество символов в поле :attribute должно быть равным :size.'
-		},
-		url: 'Поле :attribute имеет ошибочный формат.',
-		regex: 'Поле :attribute имеет ошибочный формат.',
-		attributes: {}
+	  accepted: 'Le champs :attribute doit être accepté.',
+	  alpha: 'Le champs :attribute ne peut contenir que des caractères alphabétiques.',
+	  alpha_dash: 'Le champs :attribute ne peut contenir que des caractères alphanumériques, des tirets et underscores.',
+	  alpha_num: 'Le champs :attribute doit être alphanumérique.',
+	  between: 'Le champs :attribute doit être compris entre :min and :max.',
+	  confirmed: 'Le champs :attribute ne correspond pas.',
+	  email: 'Le champs :attribute contient un format invalide.',
+	  def: 'Le champs :attribute contient un attribut erroné.',
+	  digits: 'Le champs :attribute doit être de :digits chiffres.',
+	  different: 'Le champs :attribute et :different doivent être differents.',
+	  'in': 'Le champs :attribute est invalide.',
+	  integer: 'Le champs :attribute doit être un entier.',
+	  min: {
+	    numeric: 'Le champs :attribute doit être contenir au moins :min.',
+	    string: 'Le champs :attribute doit être contenir au moins :min caractères.'
+	  },
+	  max: {
+	    numeric: 'Le champs :attribute ne doit être supérieur à :max.',
+	    string: 'Le champs :attribute ne doit être plus de :max characters.'
+	  },
+	  not_in: 'Le champs :attribute est invalide.',
+	  numeric: 'Le champs :attribute doit être un numéro.',
+	  required: 'Le champs :attribute est obligatoire.',
+	  required_if: 'Le champs :attribute est obligatoire quand :other est :value.',
+	  same: 'Le champs :attribute et :same doivent correspondre.',
+	  size: {
+	    numeric: 'La taille du champs :attribute doit être :size.',
+	    string: 'La taille du champs :attribute doit être de :size caractères.'
+	  },
+	  url: 'Le format du champs :attribute est invalide.',
+	  regex: 'Le format du champs :attribute est invalide.',
+	  attributes: {}
 	};
+
 
 /***/ },
 /* 86 */
 /***/ function(module, exports) {
 
-	var Errors = function() {
-		this.errors = {};
+	module.exports = {
+	  accepted: 'Il campo :attribute deve essere accettato.',
+	  alpha: 'Il campo :attribute deve contenere sono caratteri alfabetici.',
+	  alpha_dash: 'Il campo :attribute può contenere solo caratteri alfanumerici oltre a trattini e trattini bassi.',
+	  alpha_num: 'Il campo :attribute deve essere alfanumerico.',
+	  between: 'Il campo :attribute deve essere compreso tra :min e :max.',
+	  confirmed: 'Il campo conferma :attribute non è uguale.',
+	  email: 'Il formato dell\'attributo :attribute non è valido.',
+	  def: 'Gli attributi del campo :attribute contengono degli errori.',
+	  digits: 'Il campo :attribute deve essere di :digits cifre.',
+	  different: 'Il campo :attribute e :different devo essere diversi.',
+	  'in': 'Il valore del campo :attribute non è valido.',
+	  integer: 'Il campo :attribute deve essere un valore intero.',
+	  min: {
+	    numeric: 'Il campo :attribute deve essere maggiore o uguale di :min.',
+	    string: 'Il campo :attribute deve essere composto da almeno :min caratteri.'
+	  },
+	  max: {
+	    numeric: 'Il campo :attribute deve essere minore o uguale di :max.',
+	    string: 'Il campo :attribute deve essere composto da massimo :max caratteri.'
+	  },
+	  not_in: 'Il campo :attribute non è valido.',
+	  numeric: 'Il campo :attribute deve essere un numero.',
+	  required: 'Il campo :attribute è richiesto.',
+	  required_if: 'Il campo :attribute è richiesto quando il campo :other è uguale a :value.',
+	  same: 'I campi :attribute e :same devono essere uguali.',
+	  size: {
+	    numeric: 'La dimensione del campo :attribute deve essere uguale a :size.',
+	    string: 'Il campo :attribute deve essere di :size caratteri.'
+	  },
+	  string: 'Il campo :attribute deve essere una stringa.',
+	  url: 'Il formato del campo :attribute non è valido.',
+	  regex: 'Il formato del campo :attribute non è valido.',
+	  attributes: {}
 	};
-	
-	Errors.prototype = {
-		constructor: Errors,
-	
-		/**
-		 * Add new error message for given attribute
-		 *
-		 * @param  {string} attribute
-		 * @param  {string} message
-		 * @return {void}
-		 */
-		add: function(attribute, message) {
-			if (!this.has(attribute)) {
-				this.errors[attribute] = [];
-			}
-			this.errors[attribute].push(message);
-		},
-	
-		/**
-		 * Returns an array of error messages for an attribute, or an empty array
-		 * 
-		 * @param  {string} attribute A key in the data object being validated
-		 * @return {array} An array of error messages
-		 */
-		get: function(attribute) {
-			if (this.has(attribute)) {
-				return this.errors[attribute];
-			}
-	
-			return [];
-		},
-	
-		/**
-		 * Returns the first error message for an attribute, false otherwise
-		 * 
-		 * @param  {string} attribute A key in the data object being validated
-		 * @return {string|false} First error message or false
-		 */
-		first: function(attribute) {
-			if (this.has(attribute)) {
-				return this.errors[attribute][0];
-			}
-	
-			return false;
-		},
-	
-		/**
-		 * Get all error messages from all failing attributes
-		 * 
-		 * @return {Object} Failed attribute names for keys and an array of messages for values
-		 */
-		all: function() {
-			return this.errors;
-		},
-	
-		/**
-		 * Determine if there are any error messages for an attribute
-		 * 
-		 * @param  {string}  attribute A key in the data object being validated
-		 * @return {boolean}
-		 */
-		has: function(attribute) {
-			if (this.errors.hasOwnProperty(attribute)) {
-				return true;
-			}
-	
-			return false;
-		}
-	};
-	
-	module.exports = Errors;
+
 
 /***/ },
 /* 87 */
 /***/ function(module, exports) {
 
+	module.exports = {
+	  accepted: 'Вы должны принять :attribute.',
+	  alpha: 'Поле :attribute может содержать только буквы.',
+	  alpha_dash: 'Поле :attribute может содержать только буквы, цифры, дефисы и символы подчёркивания.',
+	  alpha_num: 'Поле :attribute может содержать только буквы и цифры.',
+	  between: 'Поле :attribute должно быть между :min и :max.',
+	  confirmed: 'Поле :attribute не совпадает с подтверждением.',
+	  email: 'Поле :attribute должно быть действительным электронным адресом.',
+	  def: 'Поле :attribute содержит ошибки.',
+	  digits: 'Длина цифрового поля :attribute должна быть :digits.',
+	  different: 'Поля :attribute и :different должны различаться.',
+	  'in': 'Выбранное значение для :attribute ошибочно.',
+	  integer: 'Поле :attribute должно быть целым числом.',
+	  min: {
+	    numeric: 'Значение поля :attribute должно быть больше или равно :min.',
+	    string: 'Количество символов в поле :attribute должно быть не менее :min.'
+	  },
+	  max: {
+	    numeric: 'Значение поля :attribute должно быть меньше или равно :max.',
+	    string: 'Количество символов в поле :attribute не может превышать :max.'
+	  },
+	  not_in: 'Выбранное значение для :attribute ошибочно.',
+	  numeric: 'Поле :attribute должно быть числом.',
+	  required: 'Поле :attribute обязательно для заполнения.',
+	  required_if: 'Поле :attribute требуется когда значения поля :other равно :value.',
+	  same: 'Значение :attribute должно совпадать с :same.',
+	  size: {
+	    numeric: 'Значение поля :attribute должно быть равным :size.',
+	    string: 'Количество символов в поле :attribute должно быть равно :size.'
+	  },
+	  url: 'Поле :attribute должно содержать валидный URL.',
+	  regex: 'Неверный формат поля :attribute.',
+	  attributes: {}
+	};
+
+
+/***/ },
+/* 88 */
+/***/ function(module, exports) {
+
+	var Errors = function() {
+	  this.errors = {};
+	};
+	
+	Errors.prototype = {
+	  constructor: Errors,
+	
+	  /**
+	   * Add new error message for given attribute
+	   *
+	   * @param  {string} attribute
+	   * @param  {string} message
+	   * @return {void}
+	   */
+	  add: function(attribute, message) {
+	    if (!this.has(attribute)) {
+	      this.errors[attribute] = [];
+	    }
+	
+	    if (this.errors[attribute].indexOf(message) === -1) {
+	      this.errors[attribute].push(message);
+	    }
+	  },
+	
+	  /**
+	   * Returns an array of error messages for an attribute, or an empty array
+	   *
+	   * @param  {string} attribute A key in the data object being validated
+	   * @return {array} An array of error messages
+	   */
+	  get: function(attribute) {
+	    if (this.has(attribute)) {
+	      return this.errors[attribute];
+	    }
+	
+	    return [];
+	  },
+	
+	  /**
+	   * Returns the first error message for an attribute, false otherwise
+	   *
+	   * @param  {string} attribute A key in the data object being validated
+	   * @return {string|false} First error message or false
+	   */
+	  first: function(attribute) {
+	    if (this.has(attribute)) {
+	      return this.errors[attribute][0];
+	    }
+	
+	    return false;
+	  },
+	
+	  /**
+	   * Get all error messages from all failing attributes
+	   *
+	   * @return {Object} Failed attribute names for keys and an array of messages for values
+	   */
+	  all: function() {
+	    return this.errors;
+	  },
+	
+	  /**
+	   * Determine if there are any error messages for an attribute
+	   *
+	   * @param  {string}  attribute A key in the data object being validated
+	   * @return {boolean}
+	   */
+	  has: function(attribute) {
+	    if (this.errors.hasOwnProperty(attribute)) {
+	      return true;
+	    }
+	
+	    return false;
+	  }
+	};
+	
+	module.exports = Errors;
+
+
+/***/ },
+/* 89 */
+/***/ function(module, exports) {
+
 	function AsyncResolvers(onFailedOne, onResolvedAll) {
-		this.onResolvedAll = onResolvedAll;
-		this.onFailedOne = onFailedOne;
-		this.resolvers = {};
-		this.resolversCount = 0;
-		this.passed = [];
-		this.failed = [];
-		this.firing = false;
+	  this.onResolvedAll = onResolvedAll;
+	  this.onFailedOne = onFailedOne;
+	  this.resolvers = {};
+	  this.resolversCount = 0;
+	  this.passed = [];
+	  this.failed = [];
+	  this.firing = false;
 	}
 	
 	AsyncResolvers.prototype = {
 	
-		/**
-		 * Add resolver
-		 *
-		 * @param {Rule} rule
-		 * @return {integer}
-		 */
-		add: function(rule) {
-			var index = this.resolversCount;
-			this.resolvers[index] = rule;
-			this.resolversCount++;
-			return index;
-		},
+	  /**
+	   * Add resolver
+	   *
+	   * @param {Rule} rule
+	   * @return {integer}
+	   */
+	  add: function(rule) {
+	    var index = this.resolversCount;
+	    this.resolvers[index] = rule;
+	    this.resolversCount++;
+	    return index;
+	  },
 	
-		/**
-		 * Resolve given index
-		 *
-		 * @param  {integer} index
-		 * @return {void}
-		 */
-		resolve: function(index) {
-			var rule = this.resolvers[index];
-			if (rule.passes === true) {
-				this.passed.push(rule);
-			}
-			else if (rule.passes === false) {
-				this.failed.push(rule);
-				this.onFailedOne(rule);
-			}
+	  /**
+	   * Resolve given index
+	   *
+	   * @param  {integer} index
+	   * @return {void}
+	   */
+	  resolve: function(index) {
+	    var rule = this.resolvers[index];
+	    if (rule.passes === true) {
+	      this.passed.push(rule);
+	    } else if (rule.passes === false) {
+	      this.failed.push(rule);
+	      this.onFailedOne(rule);
+	    }
 	
-			this.fire();
-		},
+	    this.fire();
+	  },
 	
-		/**
-		 * Determine if all have been resolved
-		 *
-		 * @return {boolean}
-		 */
-		isAllResolved: function() {
-			return (this.passed.length + this.failed.length) === this.resolversCount;
-		},
+	  /**
+	   * Determine if all have been resolved
+	   *
+	   * @return {boolean}
+	   */
+	  isAllResolved: function() {
+	    return (this.passed.length + this.failed.length) === this.resolversCount;
+	  },
 	
-		/**
-		 * Attempt to fire final all resolved callback if completed
-		 *
-		 * @return {void}
-		 */
-		fire: function() {
+	  /**
+	   * Attempt to fire final all resolved callback if completed
+	   *
+	   * @return {void}
+	   */
+	  fire: function() {
 	
-			if (!this.firing) {
-				return;
-			}
+	    if (!this.firing) {
+	      return;
+	    }
 	
-			if (this.isAllResolved()) {
-				this.onResolvedAll(this.failed.length === 0);
-			}
+	    if (this.isAllResolved()) {
+	      this.onResolvedAll(this.failed.length === 0);
+	    }
 	
-		},
+	  },
 	
-		/**
-		 * Enable firing
-		 *
-		 * @return {void}
-		 */
-		enableFiring: function() {
-			this.firing = true;
-		}
+	  /**
+	   * Enable firing
+	   *
+	   * @return {void}
+	   */
+	  enableFiring: function() {
+	    this.firing = true;
+	  }
 	
 	};
 	
@@ -7302,23 +7420,23 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 88 */
+/* 90 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-autocomplete\" v-el:autocomplete\n    :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'icon-right': iconRight\n    }\"\n>\n    <div class=\"ui-autocomplete-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-autocomplete-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-autocomplete-content\">\n        <label class=\"ui-autocomplete-label\">\n            <div class=\"ui-autocomplete-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <ui-icon\n                class=\"ui-autocomplete-clear-button\" icon=\"&#xE5CD\" title=\"Clear\"\n                @click=\"clearSearch\" v-show=\"!disabled && value.length\"\n            ></ui-icon>\n\n            <input\n                class=\"ui-autocomplete-input\" :placeholder=\"placeholder\" :name=\"name\"\n                :id=\"id\" autocomplete=\"off\"\n\n                @focus=\"focus\" @blur=\"blur\" @keydown.up=\"highlight(highlightedItem - 1)\"\n                @keydown.down=\"highlight(highlightedItem + 1)\" @keydown.tab=\"close\"\n                @keydown.enter=\"selectHighlighted(highlightedItem, $event)\"\n\n                v-model=\"value\" v-disabled=\"disabled\" v-el:input\n            >\n\n            <ul class=\"ui-autocomplete-suggestions\" v-show=\"showDropdown\">\n                <ui-autocomplete-suggestion\n                    :highlighted=\"highlightedItem === index\" :item=\"item\" :partial=\"partial\"\n                    v-for=\"(index, item) in suggestions | filterBy search | limitBy limit\"\n                    v-ref:items @click=\"select(item)\"\n                ></ui-autocomplete-suggestion>\n            </ul>\n        </label>\n\n        <div class=\"ui-autocomplete-feedback\" v-if=\"showFeedback\">\n            <div\n                class=\"ui-autocomplete-error-text\" v-text=\"validationError\"\n                transition=\"ui-autocomplete-feedback-toggle\"\n                v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-autocomplete-help-text\" transition=\"ui-autocomplete-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 89 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(90)
-	__vue_script__ = __webpack_require__(91)
+	__webpack_require__(92)
+	__vue_script__ = __webpack_require__(93)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiButton.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(92)
+	  console.warn("[vue-loader] src/UiButton.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(94)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7326,9 +7444,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiButton.vue"
+	  var id = "./UiButton.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7337,13 +7455,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 90 */
+/* 92 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 91 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7463,23 +7581,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 92 */
+/* 94 */
 /***/ function(module, exports) {
 
-	module.exports = "\n<button\n    class=\"ui-button\" :class=\"styleClasses\" v-disabled=\"disabled || loading\"\n    v-el:button\n>\n    <div class=\"ui-button-content\" :class=\"{ 'invisible': loading }\">\n        <ui-icon\n            class=\"ui-button-icon\" :class=\"{ 'position-right': iconRight }\" :icon=\"icon\"\n            v-if=\"showIcon\"\n        ></ui-icon>\n\n        <div class=\"ui-button-text\">\n            <slot>\n                <span v-text=\"text\"></span>\n            </slot>\n        </div>\n\n        <ui-icon\n            class=\"ui-button-dropdown-icon\" icon=\"&#xE5C5;\"\n            v-if=\"!iconRight && showDropdownIcon && (hasDropdownMenu || hasPopover)\"\n        ></ui-icon>\n    </div>\n\n    <ui-progress-circular\n        class=\"ui-button-spinner\" :color=\"spinnerColor\" :size=\"18\" :stroke=\"4.5\"\n        disable-transition v-show=\"loading\"\n    ></ui-progress-circular>\n\n    <ui-ripple-ink v-if=\"!hideRippleInk && !disabled\" :trigger=\"$els.button\"></ui-ripple-ink>\n\n    <ui-menu\n        class=\"ui-button-dropdown-menu\" :trigger=\"$els.button\" :options=\"menuOptions\"\n        :show-icons=\"showMenuIcons\" :show-secondary-text=\"showMenuSecondaryText\"\n        :open-on=\"openDropdownOn\" @option-selected=\"menuOptionSelect\"\n        :dropdown-position=\"dropdownPosition\" v-if=\"hasDropdownMenu\"\n    ></ui-menu>\n\n    <ui-popover :trigger=\"$els.button\" :open-on=\"openDropdownOn\" v-if=\"hasPopover\">\n        <slot name=\"popover\"></slot>\n    </ui-popover>\n</button>\n";
+	module.exports = "\n<button\n    class=\"ui-button\" :class=\"styleClasses\" v-disabled=\"disabled || loading\"\n    v-el:button\n>\n    <div class=\"ui-button-content\" :class=\"{ 'invisible': loading }\">\n        <ui-icon\n            class=\"ui-button-icon\" :class=\"{ 'position-right': iconRight }\" :icon=\"icon\"\n            v-if=\"showIcon\"\n        ></ui-icon>\n\n        <div class=\"ui-button-text\">\n            <slot>\n                <span v-text=\"text\"></span>\n            </slot>\n        </div>\n\n        <ui-icon\n            class=\"ui-button-dropdown-icon\" icon=\"&#xE5C5;\"\n            v-if=\"!iconRight && showDropdownIcon && (hasDropdownMenu || hasPopover)\"\n        ></ui-icon>\n    </div>\n\n    <ui-progress-circular\n        class=\"ui-button-spinner\" :color=\"spinnerColor\" :size=\"18\" :stroke=\"4.5\"\n        disable-transition :show=\"loading\"\n    ></ui-progress-circular>\n\n    <ui-ripple-ink v-if=\"!hideRippleInk && !disabled\" :trigger=\"$els.button\"></ui-ripple-ink>\n\n    <ui-menu\n        class=\"ui-button-dropdown-menu\" :trigger=\"$els.button\" :options=\"menuOptions\"\n        :show-icons=\"showMenuIcons\" :show-secondary-text=\"showMenuSecondaryText\"\n        :open-on=\"openDropdownOn\" @option-selected=\"menuOptionSelect\"\n        :dropdown-position=\"dropdownPosition\" v-if=\"hasDropdownMenu\"\n    ></ui-menu>\n\n    <ui-popover\n        :trigger=\"$els.button\"\n        :open-on=\"openDropdownOn\"\n        :dropdown-position=\"dropdownPosition\"\n        v-if=\"hasPopover\">\n        <slot name=\"popover\"></slot>\n    </ui-popover>\n</button>\n";
 
 /***/ },
-/* 93 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(94)
-	__vue_script__ = __webpack_require__(95)
+	__webpack_require__(96)
+	__vue_script__ = __webpack_require__(97)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiCheckbox.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(96)
+	  console.warn("[vue-loader] src/UiCheckbox.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(98)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7487,9 +7605,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiCheckbox.vue"
+	  var id = "./UiCheckbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7498,13 +7616,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 94 */
+/* 96 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 95 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7586,23 +7704,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 96 */
+/* 98 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<label\n    class=\"ui-checkbox\"\n    :class=\"{ 'disabled': disabled, 'checked': value, 'active': active, 'label-left': labelLeft }\"\n>\n    <input\n        class=\"ui-checkbox-input\" type=\"checkbox\" :name=\"name\" @focus=\"focus\" @blur=\"blur\"\n        v-model=\"value\" v-disabled=\"disabled\"\n    >\n\n    <div class=\"ui-checkbox-checkmark\">\n        <div class=\"ui-checkbox-focus-ring\"></div>\n    </div>\n\n    <div class=\"ui-checkbox-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
-/* 97 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(98)
-	__vue_script__ = __webpack_require__(99)
+	__webpack_require__(100)
+	__vue_script__ = __webpack_require__(101)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiCollapsible.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(100)
+	  console.warn("[vue-loader] src/UiCollapsible.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(102)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7610,9 +7728,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiCollapsible.vue"
+	  var id = "./UiCollapsible.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7621,13 +7739,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 98 */
+/* 100 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 99 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7766,23 +7884,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 100 */
+/* 102 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-collapsible\">\n    <button\n        class=\"ui-collapsible-header\" :class=\"{ 'disabled': disabled }\" :aria-controls=\"id\"\n        :aria-expanded=\"open ? 'true' : 'false'\" @click=\"toggleMenu\" v-disabled=\"disabled\"\n        v-el:button\n    >\n        <div class=\"ui-collapsible-header-content\">\n            <slot name=\"header\">\n                <div v-text=\"header\"></div>\n            </slot>\n        </div>\n\n        <ui-icon class=\"ui-collapsible-header-icon\" :icon=\"icon\" v-if=\"!hideIcon\"></ui-icon>\n\n        <ui-ripple-ink\n            v-if=\"!hideRippleInk && !disabled && isReady\" :trigger=\"$els.button\"\n        ></ui-ripple-ink>\n    </button>\n\n    <div\n        class=\"ui-collapsible-body-wrapper\" :transition=\"transition\"\n        :style=\"{ 'height': calculatedHeight }\" v-show=\"open\"v-el:body\n    >\n        <div class=\"ui-collapsible-body\" :id=\"id\" :aria-hidden=\"open ? null : 'true'\">\n            <slot></slot>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 101 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(102)
-	__vue_script__ = __webpack_require__(103)
+	__webpack_require__(104)
+	__vue_script__ = __webpack_require__(105)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiConfirm.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(108)
+	  console.warn("[vue-loader] src/UiConfirm.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(110)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7790,9 +7908,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiConfirm.vue"
+	  var id = "./UiConfirm.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7801,13 +7919,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 102 */
+/* 104 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 103 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7820,11 +7938,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _dominus2 = _interopRequireDefault(_dominus);
 	
-	var _UiModal = __webpack_require__(104);
+	var _UiModal = __webpack_require__(106);
 	
 	var _UiModal2 = _interopRequireDefault(_UiModal);
 	
-	var _UiButton = __webpack_require__(89);
+	var _UiButton = __webpack_require__(91);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
@@ -7914,17 +8032,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 104 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(105)
-	__vue_script__ = __webpack_require__(106)
+	__webpack_require__(107)
+	__vue_script__ = __webpack_require__(108)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiModal.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(107)
+	  console.warn("[vue-loader] src/UiModal.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(109)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -7932,9 +8050,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiModal.vue"
+	  var id = "./UiModal.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -7943,13 +8061,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 105 */
+/* 107 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 106 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7966,7 +8084,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _UiIconButton2 = _interopRequireDefault(_UiIconButton);
 	
-	var _UiButton = __webpack_require__(89);
+	var _UiButton = __webpack_require__(91);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
@@ -8104,29 +8222,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 107 */
+/* 109 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-modal ui-modal-mask\" v-show=\"show\" :transition=\"transition\" :class=\"[type]\"\n    :role=\"role\"\n>\n    <div class=\"ui-modal-wrapper\" @click=\"close\" v-el:modal-mask>\n        <div\n            class=\"ui-modal-container\" tabindex=\"-1\" @keydown.esc=\"close\"\n            v-el:modal-container\n        >\n            <div class=\"ui-modal-header\">\n                <slot name=\"header\">\n                    <h1 v-text=\"header\" class=\"ui-modal-header-text\"></h1>\n                </slot>\n\n                <ui-icon-button\n                    type=\"clear\" icon=\"&#xE5CD\" class=\"ui-modal-close-button\" @click=\"close\"\n                    :disabled=\"!dismissible\" v-if=\"showCloseButton\" v-el:close-button\n                ></ui-icon-button>\n            </div>\n\n            <div class=\"ui-modal-body\">\n                <slot>\n                    <div v-text=\"body\"></div>\n                </slot>\n            </div>\n\n            <div class=\"ui-modal-footer\" v-if=\"!hideFooter\">\n                <slot name=\"footer\">\n                    <ui-button @click=\"close\" v-if=\"dismissible\">Close</ui-button>\n                </slot>\n            </div>\n\n            <div class=\"focus-redirector\" @focus=\"redirectFocus\" tabindex=\"0\"></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 108 */
+/* 110 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-confirm\">\n    <ui-modal\n        :show.sync=\"show\" role=\"alertdialog\" :header=\"header\" @opened=\"opened\" show-close-button\n        :dismissible=\"!loading\" :backdrop-dismissible=\"backdropDismissible\"\n    >\n        <div class=\"ui-confirm-message\">\n            <slot></slot>\n        </div>\n\n        <div slot=\"footer\">\n            <ui-button\n                :color=\"type\" :text=\"confirmButtonText\" :icon=\"confirmButtonIcon\"\n                @click=\"confirm\" :loading=\"loading\" v-el:confirm-button\n            ></ui-button>\n\n            <ui-button\n                :text=\"denyButtonText\" :icon=\"denyButtonIcon\" @click=\"deny\"\n                :disabled=\"loading\" v-el:deny-button\n            ></ui-button>\n        </div>\n    </ui-modal>\n</div>\n";
 
 /***/ },
-/* 109 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(110)
-	__vue_script__ = __webpack_require__(111)
+	__webpack_require__(112)
+	__vue_script__ = __webpack_require__(113)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiFab.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(112)
+	  console.warn("[vue-loader] src/UiFab.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(114)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8134,9 +8252,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiFab.vue"
+	  var id = "./UiFab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8145,13 +8263,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 110 */
+/* 112 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 111 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8218,23 +8336,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 112 */
+/* 114 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<button\n    class=\"ui-fab\" :class=\"[this.type, this.color]\" :aria-label=\"ariaLabel || tooltip\"\n    v-disabled=\"disabled\" v-el:button\n>\n    <ui-icon class=\"ui-fab-icon\" :icon=\"icon\"></ui-icon>\n\n    <ui-ripple-ink :trigger=\"$els.button\" v-if=\"!hideRippleInk && !disabled\"></ui-ripple-ink>\n\n    <ui-tooltip\n        :trigger=\"$els.button\" :content=\"tooltip\" :position=\"tooltipPosition\" v-if=\"tooltip\"\n    ></ui-tooltip>\n</button>\n";
 
 /***/ },
-/* 113 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(114)
-	__vue_script__ = __webpack_require__(115)
+	__webpack_require__(116)
+	__vue_script__ = __webpack_require__(117)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiPreloader.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(116)
+	  console.warn("[vue-loader] src/UiPreloader.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(118)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8242,9 +8360,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiPreloader.vue"
+	  var id = "./UiPreloader.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8253,13 +8371,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 114 */
+/* 116 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 115 */
+/* 117 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -8279,23 +8397,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 116 */
+/* 118 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-preloader\">\n    <div\n        class=\"ui-preloader-progressbar\" :class=\"{ 'loading' : show }\"\n        :aria-busy=\"show ? 'true' : false\" role=\"progressbar\"\n    ></div>\n</div>\n";
 
 /***/ },
-/* 117 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(118)
-	__vue_script__ = __webpack_require__(119)
+	__webpack_require__(120)
+	__vue_script__ = __webpack_require__(121)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiProgressLinear.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(120)
+	  console.warn("[vue-loader] src/UiProgressLinear.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(122)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8303,9 +8421,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiProgressLinear.vue"
+	  var id = "./UiProgressLinear.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8314,13 +8432,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 118 */
+/* 120 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 119 */
+/* 121 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -8368,23 +8486,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 120 */
+/* 122 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-progress-linear\" :class=\"[color]\" v-show=\"show\"\n    transition=\"ui-progress-linear-toggle\"\n>\n    <div\n        class=\"ui-progress-linear-determinate\" :style=\"{ 'width': progress + '%' }\"\n        role=\"progressbar\" :aria-valuemin=\"0\" :aria-valuemax=\"100\" :aria-valuenow=\"value\"\n        v-if=\"type === 'determinate'\"\n    ></div>\n\n    <div\n        class=\"ui-progress-linear-indeterminate\" role=\"progressbar\" :aria-valuemin=\"0\"\n        :aria-valuemax=\"100\" v-else\n    ></div>\n</div>\n";
 
 /***/ },
-/* 121 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(122)
-	__vue_script__ = __webpack_require__(123)
+	__webpack_require__(124)
+	__vue_script__ = __webpack_require__(125)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRadio.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(124)
+	  console.warn("[vue-loader] src/UiRadio.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(126)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8392,9 +8510,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRadio.vue"
+	  var id = "./UiRadio.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8403,13 +8521,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 122 */
+/* 124 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 123 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8481,23 +8599,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 124 */
+/* 126 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<label\n    class=\"ui-radio\"\n    :class=\"{ 'disabled': disabled, 'checked': active, 'label-left': labelLeft }\"\n>\n    <div class=\"ui-radio-input-wrapper\">\n        <input\n            class=\"ui-radio-input\" type=\"radio\" :id=\"id\" :name=\"name\" :value=\"value\"\n            :checked=\"checked\" @focus=\"focus\" @blur=\"blur\" v-model=\"model\" v-disabled=\"disabled\"\n        >\n\n        <span class=\"ui-radio-border\"></span>\n        <span class=\"ui-radio-inner-dot\"></span>\n    </div>\n\n    <div class=\"ui-radio-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
-/* 125 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(126)
-	__vue_script__ = __webpack_require__(127)
+	__webpack_require__(128)
+	__vue_script__ = __webpack_require__(129)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRadioGroup.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(128)
+	  console.warn("[vue-loader] src/UiRadioGroup.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(130)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8505,9 +8623,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRadioGroup.vue"
+	  var id = "./UiRadioGroup.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8516,13 +8634,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 126 */
+/* 128 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 127 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8535,7 +8653,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _disabled2 = _interopRequireDefault(_disabled);
 	
-	var _UiRadio = __webpack_require__(121);
+	var _UiRadio = __webpack_require__(123);
 	
 	var _UiRadio2 = _interopRequireDefault(_UiRadio);
 	
@@ -8626,23 +8744,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 128 */
+/* 130 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-radio-group\" :id=\"id\"\n    :class=\"{ 'disabled': disabled, 'active': active, 'vertical': vertical }\"\n>\n    <div class=\"ui-radio-group-label\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n    <div class=\"ui-radio-group-options-wrapper\">\n        <ui-radio\n            class=\"ui-radio-group-radio\" v-for=\"option in options\" :model.sync=\"value\"\n            :name=\"name\" :label=\"option.text || option\" :value=\"option.value || option\"\n            :disabled=\"disabled || option.disabled\" @focussed=\"focus\" @blurred=\"blur\"\n        ></ui-radio>\n    </div>\n\n    <div\n        class=\"ui-radio-group-feedback\" v-if=\"showFeedback\"\n        transition=\"ui-radio-group-feedback-toggle\"\n    >\n        <div class=\"ui-radio-group-help-text\" v-text=\"helpText\"></div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 129 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(130)
-	__vue_script__ = __webpack_require__(131)
+	__webpack_require__(132)
+	__vue_script__ = __webpack_require__(133)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRating.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(136)
+	  console.warn("[vue-loader] src/UiRating.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(138)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8650,9 +8768,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRating.vue"
+	  var id = "./UiRating.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8661,13 +8779,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 130 */
+/* 132 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 131 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8676,7 +8794,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiRatingIcon = __webpack_require__(132);
+	var _UiRatingIcon = __webpack_require__(134);
 	
 	var _UiRatingIcon2 = _interopRequireDefault(_UiRatingIcon);
 	
@@ -8832,17 +8950,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 132 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(133)
-	__vue_script__ = __webpack_require__(134)
+	__webpack_require__(135)
+	__vue_script__ = __webpack_require__(136)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRatingIcon.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(135)
+	  console.warn("[vue-loader] src/UiRatingIcon.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(137)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8850,9 +8968,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRatingIcon.vue"
+	  var id = "./UiRatingIcon.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8861,13 +8979,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 133 */
+/* 135 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 134 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8915,29 +9033,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 135 */
+/* 137 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-rating-icon\">\n    <ui-icon\n        class=\"ui-rating-icon-icon\" :icon=\"icon\"\n        :class=\"{ 'selected': selected, 'filled' : filled }\"\n    ></ui-icon>\n</div>\n";
 
 /***/ },
-/* 136 */
+/* 138 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-rating\" :class=\"{ 'disabled': disabled, 'preview': previewing, 'active': active }\"\n\n    :tabindex=\"disabled ? null : 0\" role=\"slider\" :aria-valuemin=\"0\" :aria-valuemax=\"total\"\n    :aria-valuenow=\"previewValue\"\n\n    @keydown.up.prevent=\"incrementPreviewValue\" @keydown.down.prevent=\"decrementPreviewValue\"\n    @keydown.right.prevent=\"incrementPreviewValue\" @keydown.left.prevent=\"decrementPreviewValue\"\n    @keydown.enter.prevent=\"commitValue(previewValue)\" @focus=\"focus\" @blur=\"blur\"\n>\n    <div class=\"ui-rating-label\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n    <div\n        class=\"ui-rating-icons-wrapper\" @mouseenter=\"startPreview\" @mouseleave=\"endPreview\"\n    >\n        <ui-rating-icon\n            :type=\"type\" v-for=\"n in total\" :selected=\"(n + 1) <= value\" @mouseover=\"preview(n)\"\n            :filled=\"(n + 1) <= previewValue\" @click=\"commitValue(n + 1)\"\n        ></ui-rating-icon>\n    </div>\n\n    <div\n        class=\"ui-rating-feedback\" v-if=\"showFeedback\" transition=\"ui-rating-feedback-toggle\"\n    >\n        <div class=\"ui-rating-help-text\" v-text=\"helpText\"></div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 137 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(138)
-	__vue_script__ = __webpack_require__(139)
+	__webpack_require__(140)
+	__vue_script__ = __webpack_require__(141)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiRatingPreview.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(140)
+	  console.warn("[vue-loader] src/UiRatingPreview.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(142)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -8945,9 +9063,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiRatingPreview.vue"
+	  var id = "./UiRatingPreview.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -8956,13 +9074,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 138 */
+/* 140 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 139 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8971,7 +9089,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiRatingIcon = __webpack_require__(132);
+	var _UiRatingIcon = __webpack_require__(134);
 	
 	var _UiRatingIcon2 = _interopRequireDefault(_UiRatingIcon);
 	
@@ -9002,23 +9120,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 140 */
+/* 142 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-rating-preview\" role=\"slider\" :aria-valuemin=\"0\" :aria-valuemax=\"total\"\n    :aria-valuenow=\"value\"\n>\n    <ui-rating-icon\n        :type=\"type\" v-for=\"n in total\" :selected=\"(n + 1) <= value\"\n    ></ui-rating-icon>\n</div>\n";
 
 /***/ },
-/* 141 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(142)
-	__vue_script__ = __webpack_require__(143)
+	__webpack_require__(144)
+	__vue_script__ = __webpack_require__(145)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSelect.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(151)
+	  console.warn("[vue-loader] src/UiSelect.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(153)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -9026,9 +9144,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSelect.vue"
+	  var id = "./UiSelect.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9037,13 +9155,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 142 */
+/* 144 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 143 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9052,7 +9170,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _mergeOptions = __webpack_require__(144);
+	var _mergeOptions = __webpack_require__(146);
 	
 	var _mergeOptions2 = _interopRequireDefault(_mergeOptions);
 	
@@ -9060,13 +9178,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _fuzzysearch2 = _interopRequireDefault(_fuzzysearch);
 	
-	var _elementScroll = __webpack_require__(146);
+	var _elementScroll = __webpack_require__(148);
 	
 	var _UiIcon = __webpack_require__(6);
 	
 	var _UiIcon2 = _interopRequireDefault(_UiIcon);
 	
-	var _UiSelectOption = __webpack_require__(147);
+	var _UiSelectOption = __webpack_require__(149);
 	
 	var _UiSelectOption2 = _interopRequireDefault(_UiSelectOption);
 	
@@ -9423,11 +9541,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 144 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var isOptionObject = __webpack_require__(145);
+	var isOptionObject = __webpack_require__(147);
 	var hasOwnProperty = Object.prototype.hasOwnProperty;
 	var propIsEnumerable = Object.propertyIsEnumerable;
 	var globalThis = this;
@@ -9582,7 +9700,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 145 */
+/* 147 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9595,7 +9713,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 146 */
+/* 148 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -9648,17 +9766,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 147 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(148)
-	__vue_script__ = __webpack_require__(149)
+	__webpack_require__(150)
+	__vue_script__ = __webpack_require__(151)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSelectOption.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(150)
+	  console.warn("[vue-loader] src/UiSelectOption.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(152)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -9666,9 +9784,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSelectOption.vue"
+	  var id = "./UiSelectOption.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9677,13 +9795,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 148 */
+/* 150 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 149 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9741,29 +9859,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 150 */
+/* 152 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<li\n    class=\"ui-select-option\" :class=\"{ highlighted: highlighted, selected: selected }\"\n>\n    <div class=\"ui-select-option-content\" :class=\"[partial]\">\n        <partial :name=\"partial\"></partial>\n    </div>\n\n    <ui-icon\n        class=\"ui-select-option-checkbox\" :icon=\"icon\" v-if=\"showCheckbox\"\n    ></ui-icon>\n</li>\n";
 
 /***/ },
-/* 151 */
+/* 153 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-select\" :id=\"id\" :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'icon-right': iconRight\n    }\"\n>\n    <div class=\"ui-select-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-select-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-select-content\">\n        <div\n            class=\"ui-select-label\" :tabindex=\"disabled ? null : '0'\" v-el:label\n            @focus=\"focus\" @keydown.tab=\"blur\" @click=\"toggle\" @keydown.space.prevent=\"open\"\n            @keydown.enter.prevent=\"open\"\n        >\n            <div class=\"ui-select-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <div class=\"ui-select-display\">\n                <div\n                    class=\"ui-select-value\" :class=\"{ placeholder: !hasDisplayText }\"\n                    v-text=\"hasDisplayText ? displayText : placeholder\"\n                ></div>\n\n                <ui-icon icon=\"arrow_drop_down\" class=\"ui-select-dropdown-icon\"></ui-icon>\n            </div>\n\n            <div\n                class=\"ui-select-dropdown\" tabindex=\"-1\" v-show=\"showDropdown\" v-el:dropdown\n                @keydown.esc.prevent=\"close()\" @keydown.tab=\"close()\"\n                @keydown.up.prevent=\"highlight(highlightedIndex - 1)\"\n                @keydown.down.prevent=\"highlight(highlightedIndex + 1)\"\n                @keydown.enter.prevent.stop=\"selectHighlighted(highlightedIndex, $event)\"\n            >\n                <div class=\"ui-select-search\" v-if=\"showSearch\" @click.stop @keydown.space.stop>\n                    <input\n                        class=\"ui-select-search-input\" type=\"text\" v-el:search-input\n                        :placeholder=\"searchPlaceholder\" v-model=\"query\"\n                    >\n\n                    <ui-progress-circular\n                        class=\"ui-select-search-spinner\" :size=\"24\" :stroke=\"4\" :show=\"loading\"\n                    ></ui-progress-circular>\n                </div>\n\n                <ul class=\"ui-select-options\" v-el:options-list>\n                    <ui-select-option\n                        :option=\"option\" :partial=\"partial\" :show-checkbox=\"multiple\"\n                        @click.stop.prevent=\"select(option, index)\"\n                        @mouseover.stop=\"highlight(index, true)\"\n\n                        :highlighted=\"highlightedIndex === index\" :selected=\"isSelected(option)\"\n\n                        v-for=\"(index, option) in filteredOptions\" v-ref:options\n                        v-if=\"!noResults\"\n                    ></ui-select-option>\n\n                    <li class=\"ui-select-no-results\" v-if=\"nothingFound\">No results found</li>\n                </ul>\n            </div>\n        </div>\n\n        <div class=\"ui-select-feedback\" v-if=\"showFeedback\">\n            <div\n                class=\"ui-select-error-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"validationError\" v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-select-help-text\" transition=\"ui-select-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 152 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(153)
-	__vue_script__ = __webpack_require__(154)
+	__webpack_require__(155)
+	__vue_script__ = __webpack_require__(156)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSlider.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(163)
+	  console.warn("[vue-loader] src/UiSlider.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(165)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -9771,9 +9889,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSlider.vue"
+	  var id = "./UiSlider.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -9782,13 +9900,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 153 */
+/* 155 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 154 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9797,7 +9915,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _draggabilly = __webpack_require__(155);
+	var _draggabilly = __webpack_require__(157);
 	
 	var _draggabilly2 = _interopRequireDefault(_draggabilly);
 	
@@ -9988,7 +10106,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 155 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10020,10 +10138,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(156),
-	      __webpack_require__(157),
 	      __webpack_require__(158),
-	      __webpack_require__(159)
+	      __webpack_require__(159),
+	      __webpack_require__(160),
+	      __webpack_require__(161)
 	    );
 	  } else {
 	    // browser global
@@ -10513,7 +10631,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 156 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10609,7 +10727,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 157 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10675,7 +10793,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 158 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10925,7 +11043,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  define( [ 'get-style-property/get-style-property' ], defineGetSize );
 	} else if ( true ) {
 	  // CommonJS for Component
-	  module.exports = defineGetSize( __webpack_require__(157) );
+	  module.exports = defineGetSize( __webpack_require__(159) );
 	} else {
 	  // browser global
 	  window.getSize = defineGetSize( window.getStyleProperty );
@@ -10936,7 +11054,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 159 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -10968,8 +11086,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(160),
-	      __webpack_require__(161)
+	      __webpack_require__(162),
+	      __webpack_require__(163)
 	    );
 	  } else {
 	    // browser global
@@ -11313,7 +11431,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 160 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11401,7 +11519,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /***/ },
-/* 161 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -11433,8 +11551,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    // CommonJS
 	    module.exports = factory(
 	      window,
-	      __webpack_require__(162),
-	      __webpack_require__(160)
+	      __webpack_require__(164),
+	      __webpack_require__(162)
 	    );
 	  } else {
 	    // browser global
@@ -11728,7 +11846,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 162 */
+/* 164 */
 /***/ function(module, exports) {
 
 	/*** IMPORTS FROM imports-loader ***/
@@ -12211,23 +12329,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	}.call(window));
 
 /***/ },
-/* 163 */
+/* 165 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-slider\" :id=\"id\"\n    :class=\"{\n        min: value === 0, max: value === 100, dragging: dragging, disabled: disabled,\n        active: active, 'has-label': hasLabel\n    }\"\n\n    :tabindex=\"disabled ? null : 0\" role=\"slider\" :aria-valuemin=\"0\" :aria-valuemax=\"100\"\n    :aria-valuenow=\"value\"\n\n    @keydown.left.prevent=\"decrement\" @keydown.right.prevent=\"increment\"\n    @keydown.down.prevent=\"decrement\" @keydown.up.prevent=\"increment\"\n    @focus=\"focus\" @blur=\"blur\"\n>\n    <input type=\"hidden\" :value=\"value\" :name=\"name\">\n\n    <div class=\"ui-slider-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-slider-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-slider-content\">\n        <div class=\"ui-slider-label\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n        <div class=\"ui-slider-wrapper\" v-el:slider @mousedown=\"sliderClick\">\n            <div class=\"ui-slider-containment\" v-el:containment></div>\n\n            <div class=\"ui-slider-track\">\n                <div class=\"ui-slider-track-fill\" :style=\"{ width: value + '%'}\"></div>\n            </div>\n\n            <div class=\"ui-slider-thumb-container\" v-el:thumb>\n                <div class=\"ui-slider-focus-ring\"></div>\n                <div class=\"ui-slider-thumb\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 164 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(165)
-	__vue_script__ = __webpack_require__(166)
+	__webpack_require__(167)
+	__vue_script__ = __webpack_require__(168)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSnackbar.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(167)
+	  console.warn("[vue-loader] src/UiSnackbar.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(169)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12235,9 +12353,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSnackbar.vue"
+	  var id = "./UiSnackbar.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12246,13 +12364,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 165 */
+/* 167 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 166 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12261,7 +12379,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiButton = __webpack_require__(89);
+	var _UiButton = __webpack_require__(91);
 	
 	var _UiButton2 = _interopRequireDefault(_UiButton);
 	
@@ -12351,23 +12469,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 167 */
+/* 169 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-snackbar\" :id=\"id\" transition=\"ui-snackbar-toggle\" @click=\"click\" v-show=\"show\"\n>\n    <div class=\"ui-snackbar-text\">\n        <slot>\n            <span v-text=\"message\"></span>\n        </slot>\n    </div>\n\n    <div class=\"ui-snackbar-action\">\n        <ui-button\n            class=\"ui-snackbar-action-button\" type=\"flat\" :color=\"actionColor\"\n            :text=\"action\" @click.stop=\"actionClick\" v-if=\"action\"\n        ></ui-button>\n    </div>\n</div>\n";
 
 /***/ },
-/* 168 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(169)
-	__vue_script__ = __webpack_require__(170)
+	__webpack_require__(171)
+	__vue_script__ = __webpack_require__(172)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSnackbarContainer.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(171)
+	  console.warn("[vue-loader] src/UiSnackbarContainer.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(173)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12375,9 +12493,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSnackbarContainer.vue"
+	  var id = "./UiSnackbarContainer.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12386,13 +12504,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 169 */
+/* 171 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 170 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12405,7 +12523,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _uuid2 = _interopRequireDefault(_uuid);
 	
-	var _UiSnackbar = __webpack_require__(164);
+	var _UiSnackbar = __webpack_require__(166);
 	
 	var _UiSnackbar2 = _interopRequireDefault(_UiSnackbar);
 	
@@ -12493,23 +12611,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 171 */
+/* 173 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-snackbar-container\" :class=\"[position]\">\n    <ui-snackbar\n        :message=\"s.message\" :duration=\"s.duration\" :show.sync=\"s.show\" :action=\"s.action\"\n        :action-color=\"s.actionColor\" :persistent=\"s.persistent\" :id=\"s.id\" auto-hide\n\n        @shown=\"shown(s)\" @hidden=\"hidden(s)\" @clicked=\"clicked(s)\"\n        @action-clicked=\"actionClicked(s)\"\n\n        v-for=\"s in queue\"\n    ></ui-snackbar>\n</div>\n";
 
 /***/ },
-/* 172 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(173)
-	__vue_script__ = __webpack_require__(174)
+	__webpack_require__(175)
+	__vue_script__ = __webpack_require__(176)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiSwitch.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(175)
+	  console.warn("[vue-loader] src/UiSwitch.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(177)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12517,9 +12635,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiSwitch.vue"
+	  var id = "./UiSwitch.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12528,13 +12646,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 173 */
+/* 175 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 174 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12606,23 +12724,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 175 */
+/* 177 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<label\n    class=\"ui-switch\"\n    :class=\"{ 'checked': value, 'disabled': disabled, 'label-left': labelLeft }\"\n>\n    <div class=\"ui-switch-container\">\n        <input\n            class=\"ui-switch-input\" type=\"checkbox\" :name=\"name\" :id=\"id\" v-model=\"value\"\n            v-disabled=\"disabled\"\n        >\n\n        <div class=\"ui-switch-track\"></div>\n        <div class=\"ui-switch-thumb\"></div>\n\n        <div class=\"ui-switch-focus-ring\"></div>\n    </div>\n\n    <div class=\"ui-switch-label-text\" v-if=\"!hideLabel\">\n        <slot>\n            <span v-text=\"label\"></span>\n        </slot>\n    </div>\n</label>\n";
 
 /***/ },
-/* 176 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(177)
-	__vue_script__ = __webpack_require__(178)
+	__webpack_require__(179)
+	__vue_script__ = __webpack_require__(180)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTab.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(179)
+	  console.warn("[vue-loader] src/UiTab.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(181)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12630,9 +12748,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTab.vue"
+	  var id = "./UiTab.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12641,13 +12759,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 177 */
+/* 179 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 178 */
+/* 180 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -12686,23 +12804,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 179 */
+/* 181 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-tab\" :id=\"id\" role=\"tabpanel\" :tabindex=\"active ? '0' : null\"\n    :aria-hidden=\"!active ? 'true' : null\" v-show=\"active\"\n>\n    <slot></slot>\n</div>\n";
 
 /***/ },
-/* 180 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(181)
-	__vue_script__ = __webpack_require__(182)
+	__webpack_require__(183)
+	__vue_script__ = __webpack_require__(184)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTabs.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(187)
+	  console.warn("[vue-loader] src/UiTabs.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(189)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12710,9 +12828,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTabs.vue"
+	  var id = "./UiTabs.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12721,13 +12839,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 181 */
+/* 183 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 182 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12740,7 +12858,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _uuid2 = _interopRequireDefault(_uuid);
 	
-	var _UiTabHeaderItem = __webpack_require__(183);
+	var _UiTabHeaderItem = __webpack_require__(185);
 	
 	var _UiTabHeaderItem2 = _interopRequireDefault(_UiTabHeaderItem);
 	
@@ -12920,17 +13038,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 183 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(184)
-	__vue_script__ = __webpack_require__(185)
+	__webpack_require__(186)
+	__vue_script__ = __webpack_require__(187)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTabHeaderItem.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(186)
+	  console.warn("[vue-loader] src/UiTabHeaderItem.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(188)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -12938,9 +13056,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTabHeaderItem.vue"
+	  var id = "./UiTabHeaderItem.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -12949,13 +13067,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 184 */
+/* 186 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 185 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13010,29 +13128,29 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 186 */
+/* 188 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<li\n    class=\"ui-tab-header-item\" role=\"tab\"\n    :class=\"['type-' + type, { 'active': active, 'disabled': disabled }]\"\n\n    :tabindex=\"active ? 0 : -1\" :aria-controls=\"id\" :aria-selected=\"active ? 'true' : null\"\n    v-disabled=\"disabled\" v-el:item\n>\n    <div\n        class=\"ui-tab-header-item-icon\" v-if=\"type === 'icon' || type === 'icon-and-text'\"\n    >\n        <ui-icon :icon=\"icon\"></ui-icon>\n    </div>\n\n    <div\n        class=\"ui-tab-header-item-text\" v-text=\"text\"\n        v-if=\"type === 'text' || type === 'icon-and-text'\"\n    ></div>\n\n    <ui-ripple-ink :trigger=\"$els.item\" v-if=\"!hideRippleInk && !disabled\"></ui-ripple-ink>\n</li>\n";
 
 /***/ },
-/* 187 */
+/* 189 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-tabs\" :class=\"styleClasses\">\n    <div class=\"ui-tabs-header\" :class=\"[backgroundColor]\">\n        <ul\n            class=\"ui-tabs-header-items\" :class=\"[textColor, textColorActive]\" role=\"tablist\"\n            v-el:tabs-container\n        >\n            <ui-tab-header-item\n                :type=\"type\" :id=\"tab.id\" :icon=\"tab.icon\" :text=\"tab.header\"\n                :active=\"activeTab === tab.id\" :disabled=\"tab.disabled\"\n                :hide-ripple-ink=\"hideRippleInk\"\n\n                @click=\"select($event, tab)\" @keydown.left=\"selectPrev(index)\"\n                @keydown.right=\"selectNext($index)\"\n\n                v-for=\"(index, tab) in $children\" v-ref:tab-elements\n            ></ui-tab-header-item>\n        </ul>\n\n        <div\n            class=\"ui-tabs-active-tab-indicator\" :class=\"[indicatorColor]\"\n            :style=\"{ 'left': indicatorLeft, 'right': indicatorRight }\"\n        ></div>\n    </div>\n\n    <div class=\"ui-tabs-body\">\n        <slot></slot>\n    </div>\n</div>\n";
 
 /***/ },
-/* 188 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(189)
-	__vue_script__ = __webpack_require__(190)
+	__webpack_require__(191)
+	__vue_script__ = __webpack_require__(192)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiTextbox.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(191)
+	  console.warn("[vue-loader] src/UiTextbox.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(193)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -13040,9 +13158,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiTextbox.vue"
+	  var id = "./UiTextbox.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13051,13 +13169,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 189 */
+/* 191 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 190 */
+/* 192 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13247,23 +13365,23 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 191 */
+/* 193 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div\n    class=\"ui-textbox\"\n    :class=\"{\n        'disabled': disabled, 'invalid': !valid, 'dirty': dirty, 'active': active,\n        'has-label': !hideLabel, 'is-multi-line': multiLine, 'icon-right': iconRight,\n        'has-counter': maxLength\n    }\"\n>\n    <div class=\"ui-textbox-icon-wrapper\" v-if=\"showIcon\">\n        <ui-icon :icon=\"icon\" class=\"ui-textbox-icon\"></ui-icon>\n    </div>\n\n    <div class=\"ui-textbox-content\">\n        <label class=\"ui-textbox-label\">\n            <div class=\"ui-textbox-label-text\" v-text=\"label\" v-if=\"!hideLabel\"></div>\n\n            <input\n                class=\"ui-textbox-input\" :type=\"type\" :placeholder=\"placeholder\" :name=\"name\"\n                :id=\"id\" :number=\"type === 'number' ? true : null\" :min=\"minValue\"\n                :max=\"maxValue\" :step=\"stepValue\" :autocomplete=\"autocomplete ? null : 'off'\"\n\n                @focus=\"focussed\" @blur=\"blurred\" @change=\"changed\" @keydown=\"keydown\"\n                @keydown.enter=\"keydownEnter\" debounce=\"debounce\"\n\n                v-model=\"value | trim\" v-disabled=\"disabled\" v-if=\"!multiLine\"\n            >\n\n            <textarea\n                class=\"ui-textbox-textarea\" :placeholder=\"placeholder\" :name=\"name\" :id=\"id\"\n                :rows=\"rows\"\n\n                @focus=\"focussed\" @blur=\"blurred\" @change=\"changed\" @keydown=\"keydown\"\n                @keydown.enter=\"keydownEnter\" debounce=\"debounce\"\n\n                v-model=\"value | trim\" v-disabled=\"disabled\" v-else\n            ></textarea>\n        </label>\n\n        <div class=\"ui-textbox-feedback\" v-if=\"showFeedback || maxLength\">\n            <div\n                class=\"ui-textbox-error-text\" transition=\"ui-textbox-feedback-toggle\"\n                v-text=\"validationError\" v-show=\"!hideValidationErrors && !valid\"\n            ></div>\n\n            <div\n                class=\"ui-textbox-help-text\" transition=\"ui-textbox-feedback-toggle\"\n                v-text=\"helpText\" v-else\n            ></div>\n\n            <div\n                class=\"ui-textbox-counter\" v-text=\"value.length + '/' + maxLength\"\n                v-if=\"maxLength\"\n            ></div>\n        </div>\n    </div>\n</div>\n";
 
 /***/ },
-/* 192 */
+/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __vue_script__, __vue_template__
-	__webpack_require__(193)
-	__vue_script__ = __webpack_require__(194)
+	__webpack_require__(195)
+	__vue_script__ = __webpack_require__(196)
 	if (__vue_script__ &&
 	    __vue_script__.__esModule &&
 	    Object.keys(__vue_script__).length > 1) {
-	  console.warn("[vue-loader] src\\UiToolbar.vue: named exports in *.vue files are ignored.")}
-	__vue_template__ = __webpack_require__(195)
+	  console.warn("[vue-loader] src/UiToolbar.vue: named exports in *.vue files are ignored.")}
+	__vue_template__ = __webpack_require__(197)
 	module.exports = __vue_script__ || {}
 	if (module.exports.__esModule) module.exports = module.exports.default
 	if (__vue_template__) {
@@ -13271,9 +13389,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 	if (false) {(function () {  module.hot.accept()
 	  var hotAPI = require("vue-hot-reload-api")
-	  hotAPI.install(require("vue"), true)
+	  hotAPI.install(require("vue"), false)
 	  if (!hotAPI.compatible) return
-	  var id = "C:\\code\\packages\\keen-ui\\src\\UiToolbar.vue"
+	  var id = "./UiToolbar.vue"
 	  if (!module.hot.data) {
 	    hotAPI.createRecord(id, module.exports)
 	  } else {
@@ -13282,13 +13400,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	})()}
 
 /***/ },
-/* 193 */
+/* 195 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
-/* 194 */
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13297,7 +13415,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    value: true
 	});
 	
-	var _UiProgressLinear = __webpack_require__(117);
+	var _UiProgressLinear = __webpack_require__(119);
 	
 	var _UiProgressLinear2 = _interopRequireDefault(_UiProgressLinear);
 	
@@ -13405,7 +13523,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	};
 
 /***/ },
-/* 195 */
+/* 197 */
 /***/ function(module, exports) {
 
 	module.exports = "\n<div class=\"ui-toolbar\" :class=\"styleClasses\">\n    <div class=\"ui-toolbar-left\">\n        <ui-icon-button\n            class=\"ui-toolbar-nav-icon\" type=\"clear\" :color=\"iconColor\" :icon=\"navIcon\"\n            @click=\"navIconClick\" v-if=\"!hideNavIcon\"\n        ></ui-icon-button>\n\n        <div class=\"ui-toolbar-brand\" v-if=\"showBrand\">\n            <slot name=\"brand\">\n                <div class=\"ui-toolbar-brand-text\" v-text=\"brand\"></div>\n            </slot>\n        </div>\n    </div>\n\n    <div class=\"ui-toolbar-center\">\n        <div class=\"ui-toolbar-divider\" v-if=\"brandDividerVisible\"></div>\n\n        <slot>\n            <div class=\"ui-toolbar-title\" v-text=\"title\"></div>\n        </slot>\n    </div>\n\n    <div class=\"ui-toolbar-right\">\n        <slot name=\"actions\"></slot>\n    </div>\n\n    <ui-progress-linear\n        :show=\"loading\" class=\"ui-toolbar-preloader\" :class=\"{ 'position-top' : preloaderTop }\"\n        :color=\"preloaderColor\"\n    ></ui-progress-linear>\n</div>\n";
