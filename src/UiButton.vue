@@ -23,7 +23,7 @@
 
         <ui-progress-circular
             class="ui-button-spinner" :color="spinnerColor" :size="18" :stroke="4.5"
-            disable-transition v-show="loading"
+            disable-transition :show="loading"
         ></ui-progress-circular>
 
         <ui-ripple-ink v-if="!hideRippleInk && !disabled" :trigger="$els.button"></ui-ripple-ink>
