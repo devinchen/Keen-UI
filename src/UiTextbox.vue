@@ -23,7 +23,7 @@
                     @focus="focussed" @blur="blurred" @change="changed" @keydown="keydown"
                     @keydown.enter="keydownEnter" debounce="debounce"
 
-                    v-model="value | trim" v-disabled="disabled" v-if="!multiLine"
+                    v-model="value | trim" v-disabled="disabled" v-if="!multiLine" v-el:textbox
                 >
 
                 <textarea
@@ -33,7 +33,7 @@
                     @focus="focussed" @blur="blurred" @change="changed" @keydown="keydown"
                     @keydown.enter="keydownEnter" debounce="debounce"
 
-                    v-model="value | trim" v-disabled="disabled" v-else
+                    v-model="value | trim" v-disabled="disabled" v-else v-el:textbox
                 ></textarea>
             </label>
 
@@ -194,6 +194,10 @@ export default {
     },
 
     methods: {
+        focus() {
+          this.$els.textbox.focus();
+        },
+
         focussed() {
             this.active = true;
             this.$dispatch('focussed');
