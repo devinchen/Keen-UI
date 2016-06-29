@@ -21,7 +21,7 @@
                     :max="maxValue" :step="stepValue" :autocomplete="autocomplete ? null : 'off'"
 
                     @focus="focussed" @blur="blurred" @change="changed" @keydown="keydown"
-                    @keydown.enter="keydownEnter" debounce="debounce"
+                    @keypress.enter="keydownEnter" debounce="debounce"
 
                     v-model="value | trim" v-disabled="disabled" v-if="!multiLine" v-el:textbox
                 >
@@ -31,7 +31,7 @@
                     :rows="rows"
 
                     @focus="focussed" @blur="blurred" @change="changed" @keydown="keydown"
-                    @keydown.enter="keydownEnter" debounce="debounce"
+                    @keypress.enter="keydownEnter" debounce="debounce"
 
                     v-model="value | trim" v-disabled="disabled" v-else v-el:textbox
                 ></textarea>
